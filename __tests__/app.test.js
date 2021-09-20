@@ -81,7 +81,7 @@ describe('character routes', () => {
     const editCharacter = await Character.create(character);
     editCharacter.name = 'Iggy';
     const res = await request(app)
-      .put(`/api/v1/characters.${editCharacter.id}`)
+      .put(`/api/v1/characters/${editCharacter.id}`)
       .send(editCharacter);
 
     expect(res.body).not.toEqual({ ...character, id: '1' });
