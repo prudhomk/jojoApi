@@ -56,6 +56,15 @@ describe('character routes', () => {
     expect(res.body).toEqual([{ ...character, id: '1' }, { ...secondCharacter, id: '2' }]);
   });
 
+  test('gets a character by id', async() => {
+    const newCharacter = await Character.create(character);
+
+    const res = await request(app)
+      .get(`/api/v1/characters/${newCharacter.id}`);
+    
+    expect(res.body).toEqual({ ...character, id:'1' });
+  });
+
 
   afterAll(() => {
     pool.end();
