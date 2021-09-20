@@ -62,9 +62,18 @@ describe('character routes', () => {
     const res = await request(app)
       .get(`/api/v1/characters/${newCharacter.id}`);
     
-    expect(res.body).toEqual({ ...character, id:'1' });
+    expect(res.body).toEqual({ ...character, id: '1' });
   });
 
+  test('edit character details by id', async() => {
+    const editCharacter = await Character.create(character);
+    editCharacter.name = 'Iggy';
+    const res = await request(app)
+      .put(`/api/v1/characters.${editCharacter.id}`)
+      .send(editCharacter);
+
+    expect(res.body).not.toEqual({ ...character, id: '1' });
+  });
 
   afterAll(() => {
     pool.end();
