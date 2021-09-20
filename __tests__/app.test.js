@@ -87,6 +87,16 @@ describe('character routes', () => {
     expect(res.body).not.toEqual({ ...character, id: '1' });
   });
 
+  test('deletes a character', async() => {
+    const newCharacter = await Character.create(character);
+
+    const res = await request(app)
+      .delete(`/api/v1/characters/${newCharacter.id}`)
+      .send(character);
+
+    expect(res.body).toEqual({ ...character, id:'1' });
+  });
+
   test('create a stand', async() => {
     const standUser = await Character.create(character);
 
