@@ -22,7 +22,10 @@ describe('character routes', () => {
       isHuman: true
     };
 
-    const res = await request(app).post('/api/v1/characters');
+    const res = await request(app)
+      .post('/api/v1/characters')
+      .send(character);
+      
     expect(res.body).toEqual({ ...character, id: '1' });
   });
 
