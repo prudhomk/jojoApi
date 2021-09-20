@@ -107,6 +107,39 @@ describe('character routes', () => {
     expect(res.body).toEqual({ ...stand, id: '1' });
   });
 
+  test('get all stands', async() => {
+    const character1 = await Character.create(character);
+    const character2 = await Character.create({
+      name: 'R.E.O. Speedwagon',
+      japaneseName:'ロバート・E・O・スピードワゴン',
+      image: 'image.jpg',
+      abilities: 'Trick Top Hat, Personality',
+      nationality: 'English',
+      catchphrase: 'UWHOOAH?!',
+      family: 'None',
+      chapter: 'Phantom Blood, Battle Tendency, Stardust Crusaders, Diamond Is Unbreakable',
+      living: false,
+      isHuman: true
+    });
+
+    const stand1 = await Stand.create({ ...stand, standUser: character1.id });
+    const stand2 = await Stand.create({
+      name: 'The World',
+      alternateName: 'none',
+      japaneseName: 'ザ・ワールド(世界)',
+      image: 'image.jpg',
+      standUser: character2.id,
+      chapter: 'Stardust Crusaders, Steel Ball Run',
+      abilities: 'Time Stop, Super Speed, Super Strength',
+      battlecry: 'MUDAMUDAMUDA'
+    });
+  
+    const res = await request(app)
+      .get('/api/v1/stands');
+
+    expect(res.body).toEqual([stand1, stand2]);
+  });
+
   afterAll(() => {
     pool.end();
   });
