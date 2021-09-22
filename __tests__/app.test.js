@@ -163,6 +163,17 @@ describe('character routes', () => {
     expect(res.body).not.toEqual({ ...stand, standUser: newCharacter.id });
   });
 
+  test('delete a stand', async() => {
+    const newCharacter = await Character.create(character);
+    const badStand = await Stand.create({ ...stand, standUser: newCharacter.id });
+
+    const res = await request(app)
+      .delete(`/api/v1/stands/${badStand.id}`)
+      .send(badStand);
+    
+    expect(res.body).toEqual({ ...badStand, standUser: newCharacter.id });
+  });
+
   afterAll(() => {
     pool.end();
   });
