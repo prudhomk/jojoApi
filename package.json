@@ -11,7 +11,8 @@
     "start:watch": "nodemon -r dotenv/config server.js",
     "setup-db": "node -r dotenv/config setup-db.js",
     "setup-heroku": "heroku run npm run setup-db",
-    "load-seed-data": "heroku run node data/load-seed-data.js"
+    "load-seed-data": "heroku run node data/load-seed-data.js",
+    "load-stand-data": "heroku run node data/load-stand-data.js"
   },
   "jest": {
     "testEnvironment": "node"
