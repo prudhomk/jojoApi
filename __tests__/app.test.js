@@ -150,6 +150,19 @@ describe('character routes', () => {
     expect(res.body).toEqual({ ...stand1, id: '1' });
   });
 
+  test('update a stand by id', async() => {
+    const newCharacter = await Character.create(character);
+    const newStand = await Stand.create({ ...stand, standUser: newCharacter.id });
+
+    newStand.name = 'Bart';
+    
+    const res = await request(app)
+      .put(`/api/v1/stands/${newStand.id}`)
+      .send(newStand);
+
+    expect(res.body).not.toEqual({ ...stand, standUser: newCharacter.id });
+  });
+
   afterAll(() => {
     pool.end();
   });
