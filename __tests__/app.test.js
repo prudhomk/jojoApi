@@ -140,6 +140,16 @@ describe('character routes', () => {
     expect(res.body).toEqual([stand1, stand2]);
   });
 
+  test('find stand by id', async() => {
+    const character1 = await Character.create({ ...character });
+    const stand1 = await Stand.create({ ...stand, standUser: character1.id });
+
+    const res = await request(app)
+      .get(`/api/v1/stands/${character1.id}`);
+
+    expect(res.body).toEqual({ ...stand1, id: '1' });
+  });
+
   afterAll(() => {
     pool.end();
   });
