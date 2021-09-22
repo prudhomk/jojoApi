@@ -19,7 +19,7 @@ const characters = [
     abilities: 'Strength, Intelligence',
     nationality: 'Japanese',
     catchphrase: 'What a pain...(やれやれだぜ)',
-    family: 'Jonathan Joestar, Joseph Joestar, Holly Joestar, Jolyne Joestar, Josuke Higashikata',
+    family: 'Jonathan Joestar, Joseph Joestar, Holly Joestar, Jolyne Kujo, Josuke Higashikata',
     chapter: 'Battle Tendency, Stardust Crusaders, Diamond Is Unbreakable, Stone Ocean',
     living: true,
     isHuman: true
