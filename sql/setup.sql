@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS characters,
 stands CASCADE;
 CREATE TABLE characters (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-  name TEXT NOT NULL,
+  name TEXT NULL,
   japanese_name TEXT NOT NULL,
   image TEXT NOT NULL,
   abilities TEXT NOT NULL,
