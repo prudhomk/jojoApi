@@ -59,8 +59,36 @@ const stands = [
     abilities: 'Speed, Power, Precision, Armor, Sword Shot',
     battlecry: 'HORAHORAHORA'
   },
-
-  
+  {
+    name: 'The Fool',
+    alternateName: 'none',
+    japaneseName: 'ザ・フール（愚者)',
+    image: 'image.jpg',
+    standUser: '22',
+    chapter: 'Stardust Crusaders',
+    abilities: 'Sand Manifestation, Shapeshifting',
+    battlecry: 'none'
+  },
+  {
+    name: 'Justice',
+    alternateName: 'none',
+    japaneseName: 'ジャスティス（正義）',
+    image: 'image.jpg',
+    standUser: '23',
+    chapter: 'Stardust Crusaders',
+    abilities: 'Fog String Puppetry, Illusions',
+    battlecry: 'none'
+  },
+  {
+    name: 'Cream',
+    alternateName: 'none',
+    japaneseName: 'クリーム',
+    image: 'image.jpg',
+    standUser: '24',
+    chapter: 'Stardust Crusaders',
+    abilities: 'Void',
+    battlecry: 'none'
+  },
 ];
 
 export default stands;
