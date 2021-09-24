@@ -310,7 +310,7 @@ const characters = [
     chapter: 'Stardust Crusaders',
     living: false,
     isHuman: true
-  },
+  }
   
 ];
 
