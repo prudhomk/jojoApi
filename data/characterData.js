@@ -108,7 +108,7 @@ const characters = [
     isHuman: true
   },
   {
-    name: 'Joeseph Joestar',
+    name: 'Joseph Joestar',
     japaneseName:'ジョセフ・ジョースター',
     image: 'image.jpg',
     abilities: 'Hamon/Ripple, Hermit Purple, Clacker Balls, Clairvoyence, Strength, Intelligence, Stand',
