@@ -2,7 +2,7 @@ const characters = [
   {
     name: 'Jonathan Joestar',
     japaneseName:'ジョナサン・ジョースター',
-    image: 'image.jpg',
+    image: 'jonathan.webp',
     abilities: 'Hamon/Ripple, Strength, Zoom Punch, Sunlight Yellow Overdrive, Intelligence, Luck and Pluck',
     nationality: 'British',
     catchphrase: 'You\'re next line is...',
@@ -14,7 +14,7 @@ const characters = [
   {
     name: 'Dio Brando',
     japaneseName:'ディオ・ブランド(DIO)',
-    image: 'image.jpg',
+    image: 'dio.webp',
     abilities: 'Vampirism, The World, Strength, Intellect, Immortality, Space Ripper Stingy Eyes, Regeneration, Vaporization Freezing Technique, Hypnosis, Flesh Buds, Stand',
     nationality: 'British',
     catchphrase: 'WRYYYYY',
@@ -26,7 +26,7 @@ const characters = [
   {
     name: 'Erina Pendleton',
     japaneseName:'エリナ・ペンドルトン・ジョースター',
-    image: 'image.jpg',
+    image: 'erina.png',
     abilities: 'none',
     nationality: 'British',
     catchphrase: 'I\'m happy that the noble Jonathan Joestar is here in my arms!',
@@ -38,7 +38,7 @@ const characters = [
   {
     name: 'Will Anthonio Zeppeli',
     japaneseName:'ウィル・A・ツェペリ',
-    image: 'image.jpg',
+    image: 'zeppeli.webp',
     abilities: 'Hamon/Ripple, Strength, Zoom Punch, Ripple Cutter, Sunlight Yellow Overdrive, Life Magnetism Overdrive, Ultimate Deep Pass Overdrive',
     nationality: 'Italian',
     catchphrase: 'What is "courage"? "Courage" is knowing fear and making that fear your own!',
@@ -50,7 +50,7 @@ const characters = [
   {
     name: 'Robert E. O. Speedwagon',
     japaneseName:'ロバート・E・O・スピードワゴン',
-    image: 'image.jpg',
+    image: 'speedwagon.png',
     abilities: 'Saw Hat, Personality',
     nationality: 'English',
     catchphrase: 'UWHOOAH?!',
@@ -62,7 +62,7 @@ const characters = [
   {
     name: 'Tarkus',
     japaneseName:'タルカス',
-    image: 'image.jpg',
+    image: 'tarkus.png',
     abilities: '77 Ring Trained, Hell Heaven Snake Kill(Chain Technique), Swordsmanship, Physical Prowess',
     nationality: 'British',
     catchphrase: 'Let me hear your cries of despair! I\'m an elite at slaughter! I create death and destruction by force!',
@@ -74,7 +74,7 @@ const characters = [
   {
     name: 'Bruford',
     japaneseName: 'ブラフォード',
-    image: 'image.jpg',
+    image: 'bruford.webp',
     abilities: '77 Ring Trained, Luck, Danse Macabre Hair, Swordsmanship, Physical Prowess',
     nationality: 'Scottish',
     catchphrase: 'Hehe...This pain is proof of life. If you feel pain, you can feel joy... That\'s what humanity means... ',
@@ -86,7 +86,7 @@ const characters = [
   {
     name: 'Straizo',
     japaneseName:'ストレイツォ',
-    image: 'image.jpg',
+    image: 'straizo.webp',
     abilities: 'Hamon/Ripple, Strength, Space Ripper Stingy Eyes, Vampirism',
     nationality: 'Tibetan',
     catchphrase: 'I, Straizo will not forgive you!',
@@ -98,7 +98,7 @@ const characters = [
   {
     name: 'Dire',
     japaneseName:'ダイアー',
-    image: 'image.jpg',
+    image: 'dire.png',
     abilities: 'Hamon/Ripple, Thunder Split Attack, Thunder Cross Split Attack',
     nationality: 'Unknown',
     catchphrase: 'You fell for it, fool! Thunder Cross Split Attack!',
@@ -110,7 +110,7 @@ const characters = [
   {
     name: 'Joseph Joestar',
     japaneseName:'ジョセフ・ジョースター',
-    image: 'image.jpg',
+    image: 'joseph.webp',
     abilities: 'Hamon/Ripple, Hermit Purple, Clacker Balls, Clairvoyence, Strength, Intelligence, Stand',
     nationality: 'British',
     catchphrase: 'You\'re next line is...',
@@ -122,7 +122,7 @@ const characters = [
   {
     name: 'Caesar Anthonoio Zepelli',
     japaneseName:'シーザー・アントニオ・ツェペリ',
-    image: 'image.jpg',
+    image: 'caesar.png',
     abilities: 'Hamon/Ripple, Bubble Launcher, Bubble Barrier, Bubble Cutter, Bubble Lenses, Repel, Strength',
     nationality: 'Italian',
     catchphrase: 'Jojo, this is my last Ripple! Take it!',
@@ -134,7 +134,7 @@ const characters = [
   {
     name: 'Lisa Lisa',
     japaneseName:'リサリサ',
-    image: 'image.jpg',
+    image: 'lisalisa.png',
     abilities: 'Hamon/Ripple, Snake Muffler, Red Stone of Aja',
     nationality: 'Italian',
     catchphrase: 'Hey the big guy on the left, I don\'t like your face. I\'m gonna have to hurt you.',
@@ -146,7 +146,7 @@ const characters = [
   {
     name: 'Rudol von Stroheim',
     japaneseName:'ルドル・フォン・シュトロハイム',
-    image: 'image.jpg',
+    image: 'stronheim.png',
     abilities: 'Cyborg, Abdominal Machine Gun, Ultraviolet Radiation Beam, Ultraviolet Shoulder Cannons',
     nationality: 'German',
     catchphrase: 'German science is the greatest in the world!',
@@ -158,7 +158,7 @@ const characters = [
   {
     name: 'Kars',
     japaneseName:'カーズ',
-    image: 'image.jpg',
+    image: 'kars.png',
     abilities: 'Vampirism, Superhuman strength, Ultimate Life Form, Superhuman Intelligence, Light Mode, Body Manipulation, Immortality, Ripple, Regeneration, Biology Manipulation, Reactive Evolution',
     nationality: 'Pillar Man',
     catchphrase: 'It seems I, Kars, am the only one left...but only one can stand at the top!',
@@ -170,7 +170,7 @@ const characters = [
   {
     name: 'Esidisi',
     japaneseName:'エシディシ',
-    image: 'image.jpg',
+    image: 'esidisi.webp',
     abilities: 'Vampirism, Superhuman strength, Ultimate Life Form, Superhuman Intelligence, Light Mode, Body Manipulation, Immortality, Ripple, Regeneration, Biology Manipulation, Reactive Evolution',
     nationality: 'Pillar Man',
     catchphrase: 'I am "Esidisi of the Flame"! My Mode controls heat!',
@@ -182,7 +182,7 @@ const characters = [
   {
     name: 'Wamuu',
     japaneseName:'ワムウ',
-    image: 'image.jpg',
+    image: 'wamuu.webp',
     abilities: 'Vampirism, Superhuman strength, Wind Mode, Divine Sandstorm, Atmospheric Rift, Headgear, Body Manipulation, Absorption/Blood Vessels',
     nationality: 'Pillar Man',
     catchphrase: 'You beat me, JoJo. And as a warrior, it appears you stand taller than I do.',
@@ -194,7 +194,7 @@ const characters = [
   {
     name: 'Santana',
     japaneseName:'サンタナ',
-    image: 'image.jpg',
+    image: 'santana.png',
     abilities: 'Vampirism, Superhuman strength, Advanced Intelligence, Ribs Blades, Body Manipulation, Absorption/Blood Vessels',
     nationality: 'Pillar Man',
     catchphrase: 'Give it up, you primitive beings.',
@@ -206,7 +206,7 @@ const characters = [
   {
     name: 'Jotaro Kujo',
     japaneseName:'空条 承太郎',
-    image: 'image.jpg',
+    image: 'jotaro.png',
     abilities: 'Strength, Intelligence, Star Platinum',
     nationality: 'Japanese',
     catchphrase: 'What a pain...(やれやれだぜ)',
@@ -218,7 +218,7 @@ const characters = [
   {
     name: 'Muhammad Avdol',
     japaneseName:'モハメド・アヴドゥル',
-    image: 'image.jpg',
+    image: 'avdol.webp',
     abilities: 'Magician\'s Red',
     nationality: 'Egyptian',
     catchphrase: 'Hell 2 U!',
@@ -230,7 +230,7 @@ const characters = [
   {
     name: 'Noriaki Kakyoin',
     japaneseName:'花京院典明',
-    image: 'image.jpg',
+    image: 'kakyoin.webp',
     abilities: 'Heirophant Green, Intelligence',
     nationality: 'Japanese',
     catchphrase: 'Rerorerorerorerorerorero.',
@@ -242,7 +242,7 @@ const characters = [
   {
     name: 'Jean Pierre Polnareff',
     japaneseName:'ジャン・ピエール・ポルナレフ',
-    image: 'image.jpg',
+    image: 'polnareff.png',
     abilities: 'Silver Chariot, Intelligence, Swordsmanship',
     nationality: 'French',
     catchphrase: 'I\'m gonna turn you into a pincushion!',
@@ -254,7 +254,7 @@ const characters = [
   {
     name: 'Iggy',
     japaneseName:'イギー',
-    image: 'image.jpg',
+    image: 'iggy.webp',
     abilities: 'The Fool, Intelligence',
     nationality: 'American',
     catchphrase: 'I guess I don\'t have the heart to abandon a kid who likes dogs!',
@@ -266,7 +266,7 @@ const characters = [
   {
     name: 'Enya the Hag',
     japaneseName:'エンヤ婆',
-    image: 'image.jpg',
+    image: 'enya.webp',
     abilities: 'Justice, Intelligence',
     nationality: 'Unknown',
     catchphrase: 'Just one little wound is all I need...then "Justice" will do the rest!',
@@ -278,7 +278,7 @@ const characters = [
   {
     name: 'Vanilla Ice',
     japaneseName:'ヴァニラ・アイス',
-    image: 'image.jpg',
+    image: 'vanillaice.png',
     abilities: 'Cream, Vampirism',
     nationality: 'Unknown',
     catchphrase: 'One by one, each of you shall fall in line, as I scatter your atomic fragments across the deepest recesses of the void.',
@@ -290,7 +290,7 @@ const characters = [
   {
     name: 'Hol Horse',
     japaneseName:'ホル・ホース',
-    image: 'image.jpg',
+    image: 'holhorse.png',
     abilities: 'Emperor',
     nationality: 'Unknown',
     catchphrase: '"Better to be No.2 than No.1", that\'s my motto!',
@@ -302,7 +302,7 @@ const characters = [
   {
     name: 'J. Geil',
     japaneseName:'J・ガイル',
-    image: 'image.jpg',
+    image: 'geil.webp',
     abilities: 'Hanged Man',
     nationality: 'Unknown',
     catchphrase: 'Ku ku ku ku ku.... You really did waste your youth trying to hunt me down... but it looks like you won\'t succeed! What a pathetic life you\'ve lived!',
