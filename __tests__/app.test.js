@@ -274,8 +274,17 @@ describe('character routes', () => {
       .get('/api/v1/characters/characters?living=false&isHuman=true');
 
     expect(res.body).toEqual([newCharacter, thirdCharacter]);
-  });
 
+    const res1 = await request(app)
+      .get('/api/v1/characters/characters?living=false');
+
+    expect(res1.body).toEqual([newCharacter, thirdCharacter]);
+
+    const res2 = await request(app)
+      .get('/api/v1/characters/characters?isHuman=false');
+
+    expect(res2.body).toEqual([secondCharacter]);
+  });
 
   afterAll(() => {
     pool.end();
