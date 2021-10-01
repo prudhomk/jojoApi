@@ -320,6 +320,26 @@ describe('character routes', () => {
     expect(res.body).toEqual([newCharacter, secondCharacter]);
   });
 
+  test('gets characters by family', async() => {
+    const newCharacter = await Character.create(character);
+    const  secondCharacter = await Character.create({
+      name: 'Big Chungus',
+      japaneseName:'ジョセフ・ジョースター',
+      image: 'image.jpg',
+      abilities: 'Eating carrots',
+      nationality: 'British',
+      catchphrase: 'I\'m a chunky boy',
+      family: 'Bunnies',
+      chapter: 'Phantom Blood',
+      living: true,
+      isHuman: false
+    });
+
+    const res = await request(app)
+      .get('/api/v1/characters/family?family=joestar');    
+    expect(res.body).toEqual([newCharacter]);
+  });
+
   afterAll(() => {
     pool.end();
   });
