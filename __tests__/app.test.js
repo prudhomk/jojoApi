@@ -174,6 +174,172 @@ describe('character routes', () => {
     expect(res.body).toEqual({ ...badStand, standUser: newCharacter.id });
   });
 
+  test('gets by chapter', async() => {
+    const newCharacter = await Character.create(character);
+    const secondCharacter = await Character.create ({
+      name: 'Big Chungus',
+      japaneseName:'ジョセフ・ジョースター',
+      image: 'image.jpg',
+      abilities: 'Hamon',
+      nationality: 'British',
+      catchphrase: 'You\'re next line is...',
+      family: 'Jonathan Joestar, Jotaro Joestar, Lisa Lisa',
+      chapter: 'Phantom Blood',
+      living: false,
+      isHuman: true
+    });
+
+    const thirdCharacter = await Character.create({
+      name: 'R.E.O. Speedwagon',
+      japaneseName:'ロバート・E・O・スピードワゴン',
+      image: 'image.jpg',
+      abilities: 'Trick Top Hat, Personality',
+      nationality: 'English',
+      catchphrase: 'UWHOOAH?!',
+      family: 'None',
+      chapter: 'Phantom Blood, Battle Tendency',
+      living: false,
+      isHuman: true
+    });
+    
+    const res = await request(app)
+      .get('/api/v1/characters/chapter?chapter=battle');
+    
+    expect(res.body).toEqual([newCharacter, thirdCharacter]);
+  });
+
+  test('gets characters that are human', async() => {
+    const newCharacter = await Character.create(character);
+    const secondCharacter = await Character.create ({
+      name: 'Big Chungus',
+      japaneseName:'ジョセフ・ジョースター',
+      image: 'image.jpg',
+      abilities: 'Eating carrots',
+      nationality: 'American',
+      catchphrase: 'I\'m a chunky boy',
+      family: 'Bunnies',
+      chapter: 'Phantom Blood',
+      living: false,
+      isHuman: false
+    });
+
+    const thirdCharacter = await Character.create({
+      name: 'R.E.O. Speedwagon',
+      japaneseName:'ロバート・E・O・スピードワゴン',
+      image: 'image.jpg',
+      abilities: 'Trick Top Hat, Personality',
+      nationality: 'English',
+      catchphrase: 'UWHOOAH?!',
+      family: 'None',
+      chapter: 'Phantom Blood, Battle Tendency',
+      living: false,
+      isHuman: true
+    });
+
+    const res = await request(app)
+      .get('/api/v1/characters/human?isHuman=false');
+
+    expect(res.body).toEqual([secondCharacter]);
+  });
+  
+  test('gets characters that are human and are living', async() => {
+    const newCharacter = await Character.create(character);
+    const secondCharacter = await Character.create ({
+      name: 'Big Chungus',
+      japaneseName:'ジョセフ・ジョースター',
+      image: 'image.jpg',
+      abilities: 'Eating carrots',
+      nationality: 'American',
+      catchphrase: 'I\'m a chunky boy',
+      family: 'Bunnies',
+      chapter: 'Phantom Blood',
+      living: true,
+      isHuman: false
+    });
+
+    const thirdCharacter = await Character.create({
+      name: 'R.E.O. Speedwagon',
+      japaneseName:'ロバート・E・O・スピードワゴン',
+      image: 'image.jpg',
+      abilities: 'Trick Top Hat, Personality',
+      nationality: 'English',
+      catchphrase: 'UWHOOAH?!',
+      family: 'None',
+      chapter: 'Phantom Blood, Battle Tendency',
+      living: false,
+      isHuman: true
+    });
+
+    const res = await request(app)
+      .get('/api/v1/characters/characters?living=false&isHuman=true');
+
+    expect(res.body).toEqual([newCharacter, thirdCharacter]);
+
+    const res1 = await request(app)
+      .get('/api/v1/characters/characters?living=false');
+
+    expect(res1.body).toEqual([newCharacter, thirdCharacter]);
+
+    const res2 = await request(app)
+      .get('/api/v1/characters/characters?isHuman=false');
+
+    expect(res2.body).toEqual([secondCharacter]);
+  });
+
+  test('gets characters that have the same nationality', async() => {
+    const newCharacter = await Character.create(character);
+    const secondCharacter = await Character.create ({
+      name: 'Big Chungus',
+      japaneseName:'ジョセフ・ジョースター',
+      image: 'image.jpg',
+      abilities: 'Eating carrots',
+      nationality: 'British',
+      catchphrase: 'I\'m a chunky boy',
+      family: 'Bunnies',
+      chapter: 'Phantom Blood',
+      living: true,
+      isHuman: false
+    });
+
+    const thirdCharacter = await Character.create({
+      name: 'R.E.O. Speedwagon',
+      japaneseName:'ロバート・E・O・スピードワゴン',
+      image: 'image.jpg',
+      abilities: 'Trick Top Hat, Personality',
+      nationality: 'English',
+      catchphrase: 'UWHOOAH?!',
+      family: 'None',
+      chapter: 'Phantom Blood, Battle Tendency',
+      living: false,
+      isHuman: true
+    });
+
+    const res = await request(app)
+      .get('/api/v1/characters/nationality?nationality=british');
+
+    expect(res.body).toEqual([newCharacter, secondCharacter]);
+  });
+
+  test('gets characters by family', async() => {
+    const newCharacter = await Character.create(character);
+    const  secondCharacter = await Character.create({
+      name: 'Big Chungus',
+      japaneseName:'ジョセフ・ジョースター',
+      image: 'image.jpg',
+      abilities: 'Eating carrots',
+      nationality: 'British',
+      catchphrase: 'I\'m a chunky boy',
+      family: 'Bunnies',
+      chapter: 'Phantom Blood',
+      living: true,
+      isHuman: false
+    });
+
+    const res = await request(app)
+      .get('/api/v1/characters/family?family=joestar');    
+    expect(res.body).toEqual([newCharacter]);
+  });
+
   afterAll(() => {
     pool.end();
   });
