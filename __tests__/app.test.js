@@ -174,6 +174,39 @@ describe('character routes', () => {
     expect(res.body).toEqual({ ...badStand, standUser: newCharacter.id });
   });
 
+  test('gets by chapter', async() => {
+    const newCharacter = await Character.create(character);
+    const secondCharacter = await Character.create ({
+      name: 'Big Chungus',
+      japaneseName:'ジョセフ・ジョースター',
+      image: 'image.jpg',
+      abilities: 'Hamon',
+      nationality: 'British',
+      catchphrase: 'You\'re next line is...',
+      family: 'Jonathan Joestar, Jotaro Joestar, Lisa Lisa',
+      chapter: 'Phantom Blood',
+      living: false,
+      isHuman: true
+    });
+    const thirdCharacter = await Character.create({
+      name: 'R.E.O. Speedwagon',
+      japaneseName:'ロバート・E・O・スピードワゴン',
+      image: 'image.jpg',
+      abilities: 'Trick Top Hat, Personality',
+      nationality: 'English',
+      catchphrase: 'UWHOOAH?!',
+      family: 'None',
+      chapter: 'Phantom Blood, Battle Tendency',
+      living: false,
+      isHuman: true
+    });
+    
+    const res = await request(app)
+      .get('/api/v1/characters/chapter?chapter=battle');
+    
+    expect(res.body).toEqual([newCharacter, thirdCharacter]);
+  });
+
   afterAll(() => {
     pool.end();
   });
