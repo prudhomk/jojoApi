@@ -55,7 +55,7 @@ const characters = [
     nationality: 'English',
     catchphrase: 'UWHOOAH?!',
     family: 'None',
-    chapter: 'Phantom Blood, Battle Tendency, Stardust Crusaders, Diamond Is Unbreakable',
+    chapter: 'Phantom Blood, Battle Tendency, Stardust Crusaders',
     living: false,
     isHuman: true
   },

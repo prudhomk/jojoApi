@@ -175,16 +175,16 @@ describe('character routes', () => {
   });
 
   test('gets by chapter', async() => {
-    const newCharacter = await Character.create(newCharacter);
-    await Character.create ({
-      name: 'Joeseph Joestar',
+    const newCharacter = await Character.create(character);
+    const secondCharacter = await Character.create ({
+      name: 'Big Chungus',
       japaneseName:'ジョセフ・ジョースター',
       image: 'image.jpg',
-      abilities: 'Hamon, Clacker Balls, Clairvoyence, Strength, Intelligence',
+      abilities: 'Hamon',
       nationality: 'British',
       catchphrase: 'You\'re next line is...',
       family: 'Jonathan Joestar, Jotaro Joestar, Lisa Lisa',
-      chapter: 'Battle Tendency, Stardust Crusaders, Diamond Is Unbreakable',
+      chapter: 'Phantom Blood',
       living: false,
       isHuman: true
     });
@@ -202,7 +202,7 @@ describe('character routes', () => {
     });
     
     const res = await request(app)
-      .get('/api/v1/phantom-blood');
+      .get('/api/v1/characters/chapter?chapter=battle');
     
     expect(res.body).toEqual([newCharacter, thirdCharacter]);
   });
