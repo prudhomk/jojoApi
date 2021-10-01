@@ -50,12 +50,12 @@ const characters = [
   {
     name: 'Robert E. O. Speedwagon',
     japaneseName:'ロバート・E・O・スピードワゴン',
-    image: 'speedwagon.png',
+    image: 'speedwagon.jpg',
     abilities: 'Saw Hat, Personality',
     nationality: 'English',
     catchphrase: 'UWHOOAH?!',
     family: 'None',
-    chapter: 'Phantom Blood, Battle Tendency, Stardust Crusaders, Diamond Is Unbreakable',
+    chapter: 'Phantom Blood, Battle Tendency, Stardust Crusaders',
     living: false,
     isHuman: true
   },
@@ -120,7 +120,7 @@ const characters = [
     isHuman: true
   },
   {
-    name: 'Caesar Anthonoio Zepelli',
+    name: 'Caesar Anthonoio Zeppeli',
     japaneseName:'シーザー・アントニオ・ツェペリ',
     image: 'caesar.png',
     abilities: 'Hamon/Ripple, Bubble Launcher, Bubble Barrier, Bubble Cutter, Bubble Lenses, Repel, Strength',
@@ -206,7 +206,7 @@ const characters = [
   {
     name: 'Jotaro Kujo',
     japaneseName:'空条 承太郎',
-    image: 'jotaro.png',
+    image: 'jotaro.jpg',
     abilities: 'Strength, Intelligence, Star Platinum',
     nationality: 'Japanese',
     catchphrase: 'What a pain...(やれやれだぜ)',
@@ -276,7 +276,7 @@ const characters = [
     isHuman: true
   },
   {
-    name: 'Vanilla Ice',
+    name: 'Vanilla Ice (Cool Ice)',
     japaneseName:'ヴァニラ・アイス',
     image: 'vanillaice.png',
     abilities: 'Cream, Vampirism',
@@ -310,7 +310,175 @@ const characters = [
     chapter: 'Stardust Crusaders',
     living: false,
     isHuman: true
-  }
+  },
+  {
+    name: 'Daniel J. D\'Arby',
+    japaneseName:'ダニエル・J・ダービー',
+    image: 'image.com',
+    abilities: 'Osiris, Gambling (Cheating)',
+    nationality: 'American',
+    catchphrase: 'GOOD.',
+    family: 'Terence T. D\'Arby',
+    chapter: 'Stardust Crusaders',
+    living: true,
+    isHuman: true
+  },
+  {
+    name: 'Terence T. D\'Arby',
+    japaneseName:'テレンス・T.・ダービー',
+    image: 'image.com',
+    abilities: 'Atum, Videogames',
+    nationality: 'American',
+    catchphrase: 'Are you going to do the "ORA ORA" thing?!',
+    family: 'Daniel J. D\'Arby',
+    chapter: 'Stardust Crusaders',
+    living: true,
+    isHuman: true
+  },
+  {
+    name: 'Pet Shop',
+    japaneseName:'ペット・ショップ',
+    image: 'image.com',
+    abilities: 'Horus',
+    nationality: 'Unknown',
+    catchphrase: 'none',
+    family: 'DIO',
+    chapter: 'Stardust Crusaders',
+    living: false,
+    isHuman: false
+  },
+  {
+    name: 'N\'Doul',
+    japaneseName:'ンドゥール',
+    image: 'image.com',
+    abilities: 'Geb, Enhanced hearing',
+    nationality: 'Egyptian',
+    catchphrase: 'I do not fear death, but I don\'t want to be killed by that man... evil needs a savior as well...',
+    family: 'none',
+    chapter: 'Stardust Crusaders',
+    living: false,
+    isHuman: true
+  },
+  {
+    name: 'Mariah',
+    japaneseName:'マライア',
+    image: 'image.com',
+    abilities: 'Bastet',
+    nationality: 'unknown',
+    catchphrase: 'Boys always want to touch things they aren\'t supposed to.',
+    family: 'none',
+    chapter: 'Stardust Crusaders',
+    living: true,
+    isHuman: true
+  },
+  {
+    name: 'Alessi',
+    japaneseName:'アレッシー',
+    image: 'image.com',
+    abilities: 'Sethan',
+    nationality: 'unknown',
+    catchphrase: 'Attaboy...',
+    family: 'none',
+    chapter: 'Stardust Crusaders',
+    living: false,
+    isHuman: true
+  },
+  {
+    name: 'Oingo (Zenyatta)',
+    japaneseName:'オインゴ',
+    image: 'image.com',
+    abilities: 'Khnum',
+    nationality: 'Egyptian',
+    catchphrase: 'Our cards are the god of knowledge Tohth, and the god of creation Khnum! We are the Oingo Boingo brothers!',
+    family: 'Boingo (Mondatta)',
+    chapter: 'Stardust Crusaders',
+    living: true,
+    isHuman: true
+  },
+  {
+    name: 'Boingo (Mondatta)',
+    japaneseName:'オインゴ',
+    image: 'image.com',
+    abilities: 'Tohth',
+    nationality: 'Egyptian',
+    catchphrase: 'My Stand Tohth\'s predictions are always right!',
+    family: 'Oingo (Zenyatta)',
+    chapter: 'Stardust Crusaders',
+    living: true,
+    isHuman: true
+  },
+  {
+    name: 'Anubis',
+    japaneseName:'アヌビス神',
+    image: 'image.com',
+    abilities: 'Bound to a Scimitar, Mind Control, Selective Intangibility, Adaptability (Learning), Selective Drawing',
+    nationality: 'unknown',
+    catchphrase: 'When I fight against someone, I never lose!',
+    family: 'none',
+    chapter: 'Stardust Crusaders',
+    living: false,
+    isHuman: false
+  },
+  {
+    name: 'Gray Fly',
+    japaneseName:'グレー・フライ',
+    image: 'image.com',
+    abilities: 'Tower of Gray',
+    nationality: 'unknown',
+    catchphrase: 'I\'m planning on doing one hell of a... MASSACRE!',
+    family: 'none',
+    chapter: 'Stardust Crusaders',
+    living: false,
+    isHuman: true
+  },
+  {
+    name: 'Gray Fly',
+    japaneseName:'グレー・フライ',
+    image: 'image.com',
+    abilities: 'Tower of Gray',
+    nationality: 'unknown',
+    catchphrase: 'I\'m planning on doing one hell of a... MASSACRE!',
+    family: 'none',
+    chapter: 'Stardust Crusaders',
+    living: false,
+    isHuman: true
+  },
+  {
+    name: 'Imposter Captain Tennille',
+    japaneseName:'偽キャプテン・テニール',
+    image: 'image.com',
+    abilities: 'Dark Blue Moon',
+    nationality: 'unknown',
+    catchphrase: 'Troublesome waters! Lies and betrayal! It represents the fear of the unknown: the card of the moon, Dark Blue Moon!',
+    family: 'none',
+    chapter: 'Stardust Crusaders',
+    living: false,
+    isHuman: true
+  },
+  {
+    name: 'Forever',
+    japaneseName:'フォーエバー',
+    image: 'forever.png',
+    abilities: 'Strength, Intelligence',
+    nationality: 'unknown',
+    catchphrase: 'none',
+    family: 'none',
+    chapter: 'Stardust Crusaders',
+    living: false,
+    isHuman: false
+  },
+  {
+    name: 'Devo (Soul Sacrifice)',
+    japaneseName:'呪いのデーボ',
+    image: 'image.com',
+    abilities: 'Ebony Devil',
+    nationality: 'Native American',
+    catchphrase: 'I am Devo the Cursed. And my Stand represents "The Devil" of the Major Arcana... It symbolizes confusion and misfortune.',
+    family: 'none',
+    chapter: 'Stardust Crusaders',
+    living: false,
+    isHuman: true
+  },
   
 ];
 
