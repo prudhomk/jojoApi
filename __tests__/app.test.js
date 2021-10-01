@@ -286,6 +286,40 @@ describe('character routes', () => {
     expect(res2.body).toEqual([secondCharacter]);
   });
 
+  test('gets characters that have the same nationality', async() => {
+    const newCharacter = await Character.create(character);
+    const secondCharacter = await Character.create ({
+      name: 'Big Chungus',
+      japaneseName:'ジョセフ・ジョースター',
+      image: 'image.jpg',
+      abilities: 'Eating carrots',
+      nationality: 'British',
+      catchphrase: 'I\'m a chunky boy',
+      family: 'Bunnies',
+      chapter: 'Phantom Blood',
+      living: true,
+      isHuman: false
+    });
+
+    const thirdCharacter = await Character.create({
+      name: 'R.E.O. Speedwagon',
+      japaneseName:'ロバート・E・O・スピードワゴン',
+      image: 'image.jpg',
+      abilities: 'Trick Top Hat, Personality',
+      nationality: 'English',
+      catchphrase: 'UWHOOAH?!',
+      family: 'None',
+      chapter: 'Phantom Blood, Battle Tendency',
+      living: false,
+      isHuman: true
+    });
+
+    const res = await request(app)
+      .get('/api/v1/characters/nationality?nationality=british');
+
+    expect(res.body).toEqual([newCharacter, secondCharacter]);
+  });
+
   afterAll(() => {
     pool.end();
   });
