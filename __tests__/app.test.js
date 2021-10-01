@@ -188,6 +188,7 @@ describe('character routes', () => {
       living: false,
       isHuman: true
     });
+
     const thirdCharacter = await Character.create({
       name: 'R.E.O. Speedwagon',
       japaneseName:'ロバート・E・O・スピードワゴン',
@@ -206,6 +207,41 @@ describe('character routes', () => {
     
     expect(res.body).toEqual([newCharacter, thirdCharacter]);
   });
+
+  test('gets characters that are human', async() => {
+    const newCharacter = await Character.create(character);
+    const secondCharacter = await Character.create ({
+      name: 'Big Chungus',
+      japaneseName:'ジョセフ・ジョースター',
+      image: 'image.jpg',
+      abilities: 'Eating carrots',
+      nationality: 'American',
+      catchphrase: 'I\'m a chunky boy',
+      family: 'Bunnies',
+      chapter: 'Phantom Blood',
+      living: false,
+      isHuman: false
+    });
+
+    const thirdCharacter = await Character.create({
+      name: 'R.E.O. Speedwagon',
+      japaneseName:'ロバート・E・O・スピードワゴン',
+      image: 'image.jpg',
+      abilities: 'Trick Top Hat, Personality',
+      nationality: 'English',
+      catchphrase: 'UWHOOAH?!',
+      family: 'None',
+      chapter: 'Phantom Blood, Battle Tendency',
+      living: false,
+      isHuman: true
+    });
+
+    const res = await request(app)
+      .get('/api/v1/characters/human?isHuman=false');
+
+    expect(res.body).toEqual([secondCharacter]);
+  });
+
 
   afterAll(() => {
     pool.end();
