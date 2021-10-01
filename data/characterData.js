@@ -50,7 +50,7 @@ const characters = [
   {
     name: 'Robert E. O. Speedwagon',
     japaneseName:'ロバート・E・O・スピードワゴン',
-    image: 'speedwagon.png',
+    image: 'speedwagon.jpg',
     abilities: 'Saw Hat, Personality',
     nationality: 'English',
     catchphrase: 'UWHOOAH?!',
@@ -206,7 +206,7 @@ const characters = [
   {
     name: 'Jotaro Kujo',
     japaneseName:'空条 承太郎',
-    image: 'jotaro.png',
+    image: 'jotaro.jpg',
     abilities: 'Strength, Intelligence, Star Platinum',
     nationality: 'Japanese',
     catchphrase: 'What a pain...(やれやれだぜ)',
