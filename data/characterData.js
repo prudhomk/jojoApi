@@ -432,22 +432,10 @@ const characters = [
     isHuman: true
   },
   {
-    name: 'Gray Fly',
-    japaneseName:'グレー・フライ',
-    image: 'image.com',
-    abilities: 'Tower of Gray',
-    nationality: 'unknown',
-    catchphrase: 'I\'m planning on doing one hell of a... MASSACRE!',
-    family: 'none',
-    chapter: 'Stardust Crusaders',
-    living: false,
-    isHuman: true
-  },
-  {
     name: 'Imposter Captain Tennille',
     japaneseName:'偽キャプテン・テニール',
     image: 'image.com',
-    abilities: 'Dark Blue Moon',
+    abilities: 'Dark Blue Moon, Lung Capacity',
     nationality: 'unknown',
     catchphrase: 'Troublesome waters! Lies and betrayal! It represents the fear of the unknown: the card of the moon, Dark Blue Moon!',
     family: 'none',
@@ -804,7 +792,7 @@ const characters = [
     isHuman: true
   },
   {
-    name: 'Anjuro Katagiri',
+    name: 'Anjuro "Angelo" Katagiri',
     japaneseName:'片桐 安十郎',
     image: 'image.com',
     abilities: 'Aqua Necklace, Criminal',
@@ -883,6 +871,18 @@ const characters = [
     nationality: 'Japanese',
     catchphrase: 'You feel "guilty," right?',
     family: 'none',
+    chapter: 'Diamond is Unbreakable',
+    living: true,
+    isHuman: true
+  },
+  {
+    name: 'Shizuka Joestar',
+    japaneseName:'静・ジョースター',
+    image: 'image.com',
+    abilities: 'Achtung Baby',
+    nationality: 'Japanese',
+    catchphrase: 'none',
+    family: 'Joseph Joestar, Suzi Q, Josuke Higashikata, Jotaro Kujo',
     chapter: 'Diamond is Unbreakable',
     living: true,
     isHuman: true
