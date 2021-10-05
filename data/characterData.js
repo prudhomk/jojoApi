@@ -314,7 +314,7 @@ const characters = [
   {
     name: 'Daniel J. D\'Arby',
     japaneseName:'ダニエル・J・ダービー',
-    image: 'image.com',
+    image: 'danieldarby.webp',
     abilities: 'Osiris, Gambling (Cheating)',
     nationality: 'American',
     catchphrase: 'GOOD.',
@@ -326,7 +326,7 @@ const characters = [
   {
     name: 'Terence T. D\'Arby',
     japaneseName:'テレンス・T.・ダービー',
-    image: 'image.com',
+    image: 'terencedarby.png',
     abilities: 'Atum, Videogames',
     nationality: 'American',
     catchphrase: 'Are you going to do the "ORA ORA" thing?!',
@@ -338,7 +338,7 @@ const characters = [
   {
     name: 'Pet Shop',
     japaneseName:'ペット・ショップ',
-    image: 'image.com',
+    image: 'petshop.png',
     abilities: 'Horus',
     nationality: 'Unknown',
     catchphrase: 'none',
@@ -350,7 +350,7 @@ const characters = [
   {
     name: 'N\'Doul',
     japaneseName:'ンドゥール',
-    image: 'image.com',
+    image: 'ndoul.png',
     abilities: 'Geb, Enhanced hearing',
     nationality: 'Egyptian',
     catchphrase: 'I do not fear death, but I don\'t want to be killed by that man... evil needs a savior as well...',
@@ -362,7 +362,7 @@ const characters = [
   {
     name: 'Mariah',
     japaneseName:'マライア',
-    image: 'image.com',
+    image: 'mariah.webp',
     abilities: 'Bastet',
     nationality: 'unknown',
     catchphrase: 'Boys always want to touch things they aren\'t supposed to.',
@@ -374,7 +374,7 @@ const characters = [
   {
     name: 'Alessi',
     japaneseName:'アレッシー',
-    image: 'image.com',
+    image: 'alessi.webp',
     abilities: 'Sethan',
     nationality: 'unknown',
     catchphrase: 'Attaboy...',
@@ -386,7 +386,7 @@ const characters = [
   {
     name: 'Oingo (Zenyatta)',
     japaneseName:'オインゴ',
-    image: 'image.com',
+    image: 'oingo.png',
     abilities: 'Khnum',
     nationality: 'Egyptian',
     catchphrase: 'Our cards are the god of knowledge Tohth, and the god of creation Khnum! We are the Oingo Boingo brothers!',
@@ -398,7 +398,7 @@ const characters = [
   {
     name: 'Boingo (Mondatta)',
     japaneseName:'オインゴ',
-    image: 'image.com',
+    image: 'boingo.png',
     abilities: 'Tohth',
     nationality: 'Egyptian',
     catchphrase: 'My Stand Tohth\'s predictions are always right!',
@@ -410,7 +410,7 @@ const characters = [
   {
     name: 'Anubis',
     japaneseName:'アヌビス神',
-    image: 'image.com',
+    image: 'anubis.png',
     abilities: 'Bound to a Scimitar, Mind Control, Selective Intangibility, Adaptability (Learning), Selective Drawing',
     nationality: 'unknown',
     catchphrase: 'When I fight against someone, I never lose!',
@@ -422,7 +422,7 @@ const characters = [
   {
     name: 'Gray Fly',
     japaneseName:'グレー・フライ',
-    image: 'image.com',
+    image: 'gray.png',
     abilities: 'Tower of Gray',
     nationality: 'unknown',
     catchphrase: 'I\'m planning on doing one hell of a... MASSACRE!',
@@ -434,7 +434,7 @@ const characters = [
   {
     name: 'Imposter Captain Tennille',
     japaneseName:'偽キャプテン・テニール',
-    image: 'image.com',
+    image: 'captain.png',
     abilities: 'Dark Blue Moon, Lung Capacity',
     nationality: 'unknown',
     catchphrase: 'Troublesome waters! Lies and betrayal! It represents the fear of the unknown: the card of the moon, Dark Blue Moon!',
@@ -458,7 +458,7 @@ const characters = [
   {
     name: 'Devo (Soul Sacrifice)',
     japaneseName:'呪いのデーボ',
-    image: 'image.com',
+    image: 'devo.webp',
     abilities: 'Ebony Devil',
     nationality: 'Native American',
     catchphrase: 'I am Devo the Cursed. And my Stand represents "The Devil" of the Major Arcana... It symbolizes confusion and misfortune.',
@@ -470,7 +470,7 @@ const characters = [
   {
     name: 'Rubber Soul',
     japaneseName:'ラバーソール',
-    image: 'image.com',
+    image: 'rubbersoul.jpg',
     abilities: 'Yellow Temperance',
     nationality: 'unknown',
     catchphrase: 'DO - YOU - UNDERSTANDDDD!?',
@@ -482,7 +482,7 @@ const characters = [
   {
     name: 'Nena',
     japaneseName:'ネーナ',
-    image: 'image.com',
+    image: 'nena.webp',
     abilities: 'Empress',
     nationality: 'unknown',
     catchphrase: 'I am the "Empress", old man!  And you Joseph will be the first to die!!!',
@@ -494,7 +494,7 @@ const characters = [
   {
     name: 'ZZ',
     japaneseName:'ズィー・ズィー',
-    image: 'image.com',
+    image: 'zz.webp',
     abilities: 'Wheel of Fortune',
     nationality: 'unknown',
     catchphrase: 'Wheel of Fortune is gonna grind you into hamburgers and splatter you all over these rocks!!',
@@ -506,7 +506,7 @@ const characters = [
   {
     name: 'Steely Dan',
     japaneseName:'鋼入りの（スティーリー）ダン',
-    image: 'image.com',
+    image: 'steelydan.png',
     abilities: 'Lovers',
     nationality: 'unknown',
     catchphrase: 'My name is Dan... Steely Dan. My Stand is represented by the card of "The Lovers".',
@@ -518,7 +518,7 @@ const characters = [
   {
     name: 'Arabia Fats',
     japaneseName:'アラビア・ファッツ',
-    image: 'image.com',
+    image: 'arabia.webp',
     abilities: 'Sun',
     nationality: 'unknown',
     catchphrase: 'none',
@@ -530,7 +530,7 @@ const characters = [
   {
     name: 'Mannish Boy',
     japaneseName:'マニッシュ・ボーイ',
-    image: 'image.com',
+    image: 'mannish.png',
     abilities: 'Death Thirteen',
     nationality: 'Egyptian',
     catchphrase: 'Although I still crap in diapers, I\'m still smarter than you jokers combined!! LALI-HO!!',
@@ -542,7 +542,7 @@ const characters = [
   {
     name: 'Cameo',
     japaneseName:'カメオ',
-    image: 'image.com',
+    image: 'cameo.webp',
     abilities: 'Judgement',
     nationality: 'unknown',
     catchphrase: 'Hail 2U!',
@@ -554,7 +554,7 @@ const characters = [
   {
     name: 'Midler',
     japaneseName:'ミドラー',
-    image: 'image.com',
+    image: 'midler.png',
     abilities: 'High Priestess',
     nationality: 'unknown',
     catchphrase: 'Jotaro, you\'re my kind of guy... I regret that I have to destroy you...',
