@@ -109,6 +109,26 @@ const stands = [
     abilities: 'Light Manifestation (reflections), wrist knives',
     battlecry: 'none'
   },
+  {
+    name: 'Osiris',
+    alternateName: 'none',
+    japaneseName: 'オシリス神',
+    image: 'image.com',
+    standUser: '27',
+    chapter: 'Stardust Crusaders',
+    abilities: 'Soul Steal',
+    battlecry: 'none'
+  },
+  {
+    name: 'Atum',
+    alternateName: 'none',
+    japaneseName: 'アトゥム神',
+    image: 'image.com',
+    standUser: '28',
+    chapter: 'Stardust Crusaders',
+    abilities: 'Soul Steal, Binary Soul Reading',
+    battlecry: 'none'
+  },
 ];
 
 export default stands;
