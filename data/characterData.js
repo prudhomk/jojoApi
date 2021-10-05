@@ -566,7 +566,7 @@ const characters = [
   {
     name: 'Josuke Higashikata',
     japaneseName:'東方 仗助',
-    image: 'image.com',
+    image: 'josuke.jpg',
     abilities: 'Crazy Diamond, intelligence, short temper, physical fitness, stand mastery',
     nationality: 'Japanese',
     catchphrase: 'This is great! (グレートだぜ! Gurēto daze)',
@@ -578,7 +578,7 @@ const characters = [
   {
     name: 'Tomoko Higashikata',
     japaneseName:'東方 朋子',
-    image: 'image.com',
+    image: 'tomoko.png',
     abilities: 'none',
     nationality: 'Japanese',
     catchphrase: 'I hope Josuke\'s behaving himself. He just got into high school. I really don\'t get that brat sometimes. But, he is really tender and gentle deep down, so I guess I shouldn\'t worry so much.',
@@ -590,7 +590,7 @@ const characters = [
   {
     name: 'Okuyasu Nijimura',
     japaneseName:'虹村億泰',
-    image: 'image.com',
+    image: 'okuyasu.webp',
     abilities: 'The Hand, stand mastery',
     nationality: 'Japanese',
     catchphrase: 'I\'m not that smart, okay? I just do what my heart tells me to do.',
@@ -602,7 +602,7 @@ const characters = [
   {
     name: 'Keicho Nijimura',
     japaneseName:'虹村形兆',
-    image: 'image.com',
+    image: 'rohan.png',
     abilities: 'Bad Company',
     nationality: 'Japanese',
     catchphrase: 'My plans are on a level beyond your comprehension. Just you wait, in the end, it will all go according to my plan.',
@@ -614,7 +614,7 @@ const characters = [
   {
     name: 'Nijimura\'s Father',
     japaneseName:'虹村父',
-    image: 'image.com',
+    image: 'father.png',
     abilities: 'Regeneration, Stand(?), Immortality',
     nationality: 'Japanese',
     catchphrase: 'none',
@@ -626,7 +626,7 @@ const characters = [
   {
     name: 'Koichi Hirose',
     japaneseName:'広瀬 康一',
-    image: 'image.com',
+    image: 'koichi.jpg',
     abilities: 'Echoes, stand mastery',
     nationality: 'Japanese',
     catchphrase: 'In case you\'re wondering, my name is Koichi Hirose (though I guess it\'s not that important). Anyway, I was nervously walking myself to class... until I met those two really strange guys.',
@@ -638,7 +638,7 @@ const characters = [
   {
     name: 'Rohan Kishibe',
     japaneseName:'岸辺 露伴',
-    image: 'image.com',
+    image: 'rohan.png',
     abilities: 'Heaven\'s Door, stand mastery, Dexterity, Draftsmanship',
     nationality: 'Japanese',
     catchphrase: 'Reality is the lifeblood that makes a work pulse with energy. Reality itself is entertainment!',
@@ -650,7 +650,7 @@ const characters = [
   {
     name: 'Reimi Sugimoto',
     japaneseName:'杉本 鈴美',
-    image: 'image.com',
+    image: 'reimi.png',
     abilities: 'Ghost',
     nationality: 'Japanese',
     catchphrase: 'If my killer is caught, Morioh will finally stop being the playground of this maniac and go back to normal. We must stop this monster as soon as we can!',
@@ -674,7 +674,7 @@ const characters = [
   {
     name: 'Mikitaka Hazekura',
     japaneseName:'支倉未起隆',
-    image: 'image.com',
+    image: 'mikitaka.png',
     abilities: 'Earth Wind and Fire',
     nationality: 'unknown',
     catchphrase: '"Alien"? Yes, that is the term. I am an alien!',
@@ -686,7 +686,7 @@ const characters = [
   {
     name: 'Yukako Yamagishi',
     japaneseName:'山岸由花子',
-    image: 'image.com',
+    image: 'yukako.png',
     abilities: 'Love Deluxe',
     nationality: 'Japanese',
     catchphrase: 'It doesn\'t matter if anyone comes, because love is invincible.',
@@ -698,7 +698,7 @@ const characters = [
   {
     name: 'Yuya Fungami',
     japaneseName:'噴上裕也',
-    image: 'image.com',
+    image: 'yuya.png',
     abilities: 'Highway Star, Sense of Smell',
     nationality: 'Japanese',
     catchphrase: 'I am... just so gloriously handsome! Check out this face of mine.',
@@ -710,7 +710,7 @@ const characters = [
   {
     name: 'Toshikazu Hazamada',
     japaneseName:'間田 敏和',
-    image: 'image.com',
+    image: 'toshikazu.jpg',
     abilities: 'Surface',
     nationality: 'Japanese',
     catchphrase: 'I finally got this so-called "Stand" ability...not everyone gets to have one, you know? Kinda makes you want to live a more dangerous and successful life than the average guy, don\'t you think?',
@@ -722,7 +722,7 @@ const characters = [
   {
     name: 'Tonio Trussardi',
     japaneseName:'トニオ・トラサルディー',
-    image: 'image.com',
+    image: 'tonio.png',
     abilities: 'Pearl Jam, Cooking, Esoteric Knowledge',
     nationality: 'Italian',
     catchphrase: 'Now, let\'s continue with the meal, shall we?',
@@ -734,7 +734,7 @@ const characters = [
   {
     name: 'Aya Tsuji',
     japaneseName:'辻 彩',
-    image: 'image.com',
+    image: 'aya.png',
     abilities: 'Cinderella',
     nationality: 'Japanese',
     catchphrase: 'I didn\'t open this salon for the money. It\'s because I wanted to make people happy like the fairy godmother in Cinderella.',
@@ -746,7 +746,7 @@ const characters = [
   {
     name: 'Yoshikage Kira',
     japaneseName:'吉良 吉影',
-    image: 'image.com',
+    image: 'kira.png',
     abilities: 'Killer Queen, Stray Cat, Serial Killer',
     nationality: 'Japanese',
     catchphrase: 'I want a peaceful life. It\'s just that it\'s in my nature to kill.',
@@ -758,7 +758,7 @@ const characters = [
   {
     name: 'Yoshihiro Kira',
     japaneseName:'吉良吉廣',
-    image: 'image.com',
+    image: 'yoshihiro.jpg',
     abilities: 'Atom Heart Father, Stand Arrow',
     nationality: 'Japanese',
     catchphrase: 'I will kill anyone who harms my beloved son!',
@@ -770,7 +770,7 @@ const characters = [
   {
     name: 'Tama',
     japaneseName:'タマ',
-    image: 'image.com',
+    image: 'tama.png',
     abilities: 'Stray Cat',
     nationality: 'unknown',
     catchphrase: 'none',
@@ -782,7 +782,7 @@ const characters = [
   {
     name: 'Akira Otoishi',
     japaneseName:'音石 明',
-    image: 'image.com',
+    image: 'akira.jpg',
     abilities: 'Red Hot Chili Pepper',
     nationality: 'Japanese',
     catchphrase: 'In the near future, with this baby right here, I\'m gonna BLOW THE WHOLE WORLD AWAY!',
@@ -794,7 +794,7 @@ const characters = [
   {
     name: 'Anjuro "Angelo" Katagiri',
     japaneseName:'片桐 安十郎',
-    image: 'image.com',
+    image: 'angelo.webp',
     abilities: 'Aqua Necklace, Criminal',
     nationality: 'Japanese',
     catchphrase: 'Today, tomorrow, whenever, I\'ll wait patiently for my chance. Then, I\'ll kill you and your hot mom!',
@@ -806,7 +806,7 @@ const characters = [
   {
     name: 'Bug-Eaten',
     japaneseName:'虫喰い',
-    image: 'image.com',
+    image: 'bugeaten.png',
     abilities: 'Ratt',
     nationality: 'unknown',
     catchphrase: 'Skwiiiiiiiiieck',
@@ -818,7 +818,7 @@ const characters = [
   {
     name: 'Ken Oyanagi',
     japaneseName:'大柳 賢',
-    image: 'image.com',
+    image: 'ken.png',
     abilities: 'Boy II Man',
     nationality: 'Japanese',
     catchphrase: 'Hey, mister. Wanna play rock-paper-scissors?',
@@ -830,7 +830,7 @@ const characters = [
   {
     name: 'Toyohiro Kanedaichi',
     japaneseName:'鋼田一 豊大',
-    image: 'image.com',
+    image: 'toyohiro.png',
     abilities: 'Super Fly, Acrobatics',
     nationality: 'Japanese',
     catchphrase: 'I see, so you were curious about my house?',
@@ -842,7 +842,7 @@ const characters = [
   {
     name: 'Terunosuke Miyamoto',
     japaneseName:'宮本 輝之輔',
-    image: 'image.com',
+    image: 'miyamoto.png',
     abilities: 'Enigma',
     nationality: 'Japanese',
     catchphrase: 'When I find your terror\'s tells, my Enigma can strike perfectly!',
@@ -854,7 +854,7 @@ const characters = [
   {
     name: 'Masazo Kinoto',
     japaneseName:'乙 雅三',
-    image: 'image.com',
+    image: 'masazo.png',
     abilities: 'Cheap Trick',
     nationality: 'Japanese',
     catchphrase: 'I hate it when people see my back!',
@@ -866,7 +866,7 @@ const characters = [
   {
     name: 'Tamami Kobayashi',
     japaneseName:'小林 玉美',
-    image: 'image.com',
+    image: 'tamami.png',
     abilities: 'The Lock',
     nationality: 'Japanese',
     catchphrase: 'You feel "guilty," right?',
@@ -878,7 +878,7 @@ const characters = [
   {
     name: 'Shizuka Joestar',
     japaneseName:'静・ジョースター',
-    image: 'image.com',
+    image: 'shizuka.webp',
     abilities: 'Achtung Baby',
     nationality: 'Japanese',
     catchphrase: 'none',
