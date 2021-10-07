@@ -3,7 +3,6 @@ import setup from '../data/setup.js';
 import request from 'supertest';
 import app from '../lib/app.js';
 import Character from '../lib/models/Character.js';
-import Stand from '../lib/models/Stand.js';
 
 describe('character routes', () => {
   beforeEach(() => {
