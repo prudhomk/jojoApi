@@ -12,7 +12,7 @@ describe('character routes', () => {
 
   const character = {
     name: 'Joeseph Joestar',
-    japaneseName:'ジョセフ・ジョースター',
+    japaneseName:'nihongo name',
     image: 'image.jpg',
     abilities: 'Hamon, Clacker Balls, Clairvoyence, Strength, Intelligence',
     nationality: 'British',
@@ -330,7 +330,7 @@ describe('character routes', () => {
     expect(res.body).toEqual([newCharacter]);
   });
 
-  test('query test', async() => {
+  test('query test - one parameter', async() => {
     const newCharacter = await Character.create(character);
     const  secondCharacter = await Character.create({
       name: 'Big Chungus',
@@ -362,11 +362,11 @@ describe('character routes', () => {
     expect(res3.body).toEqual([secondCharacter]);
   });
 
-  test.only('query test', async() => {
+  test('query test - 2+ parameters', async() => {
     const newCharacter = await Character.create(character);
-    const  secondCharacter = await Character.create({
+    const secondCharacter = await Character.create({
       name: 'Big Chungus',
-      japaneseName:'ジョセフ・ジョースター',
+      japaneseName:'japanese name',
       image: 'image.jpg',
       abilities: 'Eating carrots',
       nationality: 'British',
@@ -374,7 +374,7 @@ describe('character routes', () => {
       family: 'Bunnies',
       chapter: 'Phantom Blood',
       living: true,
-      isHuman: false
+      isHuman: true
     });
 
     const res = await request(app)
@@ -390,10 +390,12 @@ describe('character routes', () => {
     expect(res2.body).toEqual([newCharacter]);
     
     const res3 = await request(app)
-      .get('/api/v1/characters/query/query?chapter=battle&living=false&isHuman=true');    
+      .get('/api/v1/characters/query/query?isHuman=true&chapter=battle&living=false');    
     expect(res3.body).toEqual([newCharacter]);
 
-  
+    const res4 = await request(app)
+      .get('/api/v1/characters/query/query?isHuman=true&nationality=british&image=image');    
+    expect(res4.body).toEqual([newCharacter, secondCharacter]);
   });
 
   afterAll(() => {
