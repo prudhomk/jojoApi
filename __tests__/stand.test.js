@@ -129,58 +129,32 @@ describe('character routes', () => {
       isHuman: false
     });
 
-    const res = await request(app)
-      .get('/api/v1/characters/query/query?family=joestar');    
-    expect(res.body).toEqual([newCharacter]);
-
-    const res1 = await request(app)
-      .get('/api/v1/characters/query/query?nationality=British');    
-    expect(res1.body).toEqual([newCharacter, secondCharacter]);
-
-    const res2 = await request(app)
-      .get('/api/v1/characters/query/query?chapter=battle');    
-    expect(res2.body).toEqual([newCharacter]);
-    
-    const res3 = await request(app)
-      .get('/api/v1/characters/query/query?living=true');    
-    expect(res3.body).toEqual([secondCharacter]);
-  });
-
-  test('query test - 2+ parameters', async() => {
-    const newCharacter = await Character.create(character);
-    const secondCharacter = await Character.create({
-      name: 'Big Chungus',
-      japaneseName:'japanese name',
-      image: 'image.jpg',
-      abilities: 'Eating carrots',
-      nationality: 'British',
-      catchphrase: 'I\'m a chunky boy',
-      family: 'Bunnies',
-      chapter: 'Phantom Blood',
-      living: true,
-      isHuman: true
+    const newStand = await Stand.create(stand);
+    const secondStand = await Stand.create({
+      name: 'Dingus',
+      alternateName: 'Deengus',
+      japaneseName: 'bingus',
+      image: 'emperor.webp',
+      standUser: '2',
+      chapter: 'Stardust Crusaders',
+      abilities: 'i dunno',
+      battlecry: 'look out'
     });
 
-    const res = await request(app)
-      .get('/api/v1/characters/query/query?family=joestar&nationality=British');    
-    expect(res.body).toEqual([newCharacter]);
 
-    const res1 = await request(app)
-      .get('/api/v1/characters/query/query?family=joestar&living=false');    
-    expect(res1.body).toEqual([newCharacter]);
+    const res = await request(app)
+      .get('/api/v1/stands/query/query?name=star');    
+    expect(res.body).toEqual([newStand]);
 
     const res2 = await request(app)
-      .get('/api/v1/characters/query/query?chapter=battle&family=joestar&nationality=British');    
-    expect(res2.body).toEqual([newCharacter]);
-    
-    const res3 = await request(app)
-      .get('/api/v1/characters/query/query?isHuman=true&chapter=battle&living=false');    
-    expect(res3.body).toEqual([newCharacter]);
+      .get('/api/v1/stands/query/query?alternateName=deengus');    
+    expect(res2.body).toEqual([secondStand]);
 
-    const res4 = await request(app)
-      .get('/api/v1/characters/query/query?isHuman=true&nationality=british&image=image');    
-    expect(res4.body).toEqual([newCharacter, secondCharacter]);
+    const res3 = await request(app)
+      .get('/api/v1/stands/query/query?standUser=1');    
+    expect(res3.body).toEqual([newStand]);
   });
+
 
   test('query test - 2+ parameters', async() => {
     const newCharacter = await Character.create(character);
@@ -200,10 +174,10 @@ describe('character routes', () => {
     const newStand = await Stand.create(stand);
     const secondStand = await Stand.create({
       name: 'Dingus',
-      alternateName: 'none',
+      alternateName: 'Pingus',
       japaneseName: 'bingus',
       image: 'emperor.webp',
-      standUser: '25',
+      standUser: '2',
       chapter: 'Stardust Crusaders',
       abilities: 'i dunno',
       battlecry: 'look out'
@@ -211,7 +185,11 @@ describe('character routes', () => {
 
     const res = await request(app)
       .get('/api/v1/stands/query/query?chapter=stardust&abilities=strength');    
-    expect(res.body).toEqual([newCharacter]);
+    expect(res.body).toEqual([newStand]);
+
+    const res2 = await request(app)
+      .get('/api/v1/stands/query/query?chapter=stardust&alternateName=pingus&japaneseName=bingus');    
+    expect(res2.body).toEqual([secondStand]);
 
   });
 
