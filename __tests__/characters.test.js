@@ -3,7 +3,6 @@ import setup from '../data/setup.js';
 import request from 'supertest';
 import app from '../lib/app.js';
 import Character from '../lib/models/Character.js';
-import Stand from '../lib/models/Stand.js';
 
 describe('character routes', () => {
   beforeEach(() => {
@@ -21,17 +20,6 @@ describe('character routes', () => {
     chapter: 'Battle Tendency, Stardust Crusaders, Diamond Is Unbreakable',
     living: false,
     isHuman: true
-  };
-
-  const stand = {
-    name: 'Star Platinum',
-    alternateName: 'none',
-    japaneseName: 'スタープラチナ（星の白金)',
-    image: 'image.jpg',
-    standUser: '1',
-    chapter: 'Stardust Crusaders, Diamond Is Unbreakable, Stone Ocean',
-    abilities: 'Time Stop, Super Speed, Super Strength, Breath, Star-Finger',
-    battlecry: 'ORAORAORAORAORAORA'
   };
 
   test('creates a character', async () => {
