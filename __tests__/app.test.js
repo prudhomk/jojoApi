@@ -330,6 +330,70 @@ describe('character routes', () => {
     expect(res.body).toEqual([newCharacter]);
   });
 
+  test('query test', async() => {
+    const newCharacter = await Character.create(character);
+    const  secondCharacter = await Character.create({
+      name: 'Big Chungus',
+      japaneseName:'ジョセフ・ジョースター',
+      image: 'image.jpg',
+      abilities: 'Eating carrots',
+      nationality: 'British',
+      catchphrase: 'I\'m a chunky boy',
+      family: 'Bunnies',
+      chapter: 'Phantom Blood',
+      living: true,
+      isHuman: false
+    });
+
+    const res = await request(app)
+      .get('/api/v1/characters/query/query?family=joestar');    
+    expect(res.body).toEqual([newCharacter]);
+
+    const res1 = await request(app)
+      .get('/api/v1/characters/query/query?nationality=British');    
+    expect(res1.body).toEqual([newCharacter, secondCharacter]);
+
+    const res2 = await request(app)
+      .get('/api/v1/characters/query/query?chapter=battle');    
+    expect(res2.body).toEqual([newCharacter]);
+    
+    const res3 = await request(app)
+      .get('/api/v1/characters/query/query?living=true');    
+    expect(res3.body).toEqual([secondCharacter]);
+  });
+
+  test.only('query test', async() => {
+    const newCharacter = await Character.create(character);
+    const  secondCharacter = await Character.create({
+      name: 'Big Chungus',
+      japaneseName:'ジョセフ・ジョースター',
+      image: 'image.jpg',
+      abilities: 'Eating carrots',
+      nationality: 'British',
+      catchphrase: 'I\'m a chunky boy',
+      family: 'Bunnies',
+      chapter: 'Phantom Blood',
+      living: true,
+      isHuman: false
+    });
+
+    const res = await request(app)
+      .get('/api/v1/characters/query/query?family=joestar&nationality=British');    
+    expect(res.body).toEqual([newCharacter]);
+
+    const res1 = await request(app)
+      .get('/api/v1/characters/query/query?family=joestar&living=false');    
+    expect(res1.body).toEqual([newCharacter]);
+
+    //   const res2 = await request(app)
+    //     .get('/api/v1/characters/query/query?chapter=battle');    
+    //   expect(res2.body).toEqual([newCharacter]);
+    
+  //   const res3 = await request(app)
+  //     .get('/api/v1/characters/query/query?living=true');    
+  //   expect(res3.body).toEqual([secondCharacter]);
+  });
+
   afterAll(() => {
     pool.end();
   });
