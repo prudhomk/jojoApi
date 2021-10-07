@@ -662,7 +662,7 @@ const characters = [
   {
     name: 'Shigekiyo Yangu',
     japaneseName:'矢安宮 重清(重ちー)',
-    image: 'image.com',
+    image: 'shigechi.png',
     abilities: 'Harvest',
     nationality: 'Japanese',
     catchphrase: 'As long as ya\'ll be with me, my little Harvests, I\'ll never run outta money...for my whole life!',

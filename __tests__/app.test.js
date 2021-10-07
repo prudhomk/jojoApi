@@ -385,13 +385,15 @@ describe('character routes', () => {
       .get('/api/v1/characters/query/query?family=joestar&living=false');    
     expect(res1.body).toEqual([newCharacter]);
 
-    //   const res2 = await request(app)
-    //     .get('/api/v1/characters/query/query?chapter=battle');    
-    //   expect(res2.body).toEqual([newCharacter]);
+    const res2 = await request(app)
+      .get('/api/v1/characters/query/query?chapter=battle&family=joestar&nationality=British');    
+    expect(res2.body).toEqual([newCharacter]);
     
-  //   const res3 = await request(app)
-  //     .get('/api/v1/characters/query/query?living=true');    
-  //   expect(res3.body).toEqual([secondCharacter]);
+    const res3 = await request(app)
+      .get('/api/v1/characters/query/query?chapter=battle&living=false&isHuman=true');    
+    expect(res3.body).toEqual([newCharacter]);
+
+  
   });
 
   afterAll(() => {
