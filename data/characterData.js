@@ -758,7 +758,7 @@ const characters = [
   {
     name: 'Yoshihiro Kira',
     japaneseName:'吉良吉廣',
-    image: 'yoshihirokira.webp',
+    image: 'yoshihorokira.webp',
     abilities: 'Atom Heart Father, Stand Arrow',
     nationality: 'Japanese',
     catchphrase: 'I will kill anyone who harms my beloved son!',
@@ -1154,7 +1154,7 @@ const characters = [
   {
     name: 'Pesci',
     japaneseName:'ペッシ',
-    image: 'pesci.png',
+    image: 'peschi.png',
     abilities: 'Beach Boy',
     nationality: 'Italian',
     catchphrase: 'Before Big Brother\'s life leaves his body... I\'ll make you pay before his very eyes!!',
@@ -1202,7 +1202,7 @@ const characters = [
   {
     name: 'Jolyne Kujo',
     japaneseName:'空条 徐倫',
-    image: 'scolippi.png',
+    image: 'jolyne.webp',
     abilities: 'Stone Free',
     nationality: 'Japanese-American',
     catchphrase: 'Gimme a break! (やれやれだわ Yare Yare Dawa)',
@@ -1214,7 +1214,7 @@ const characters = [
   {
     name: 'Ermes Costello',
     japaneseName:'エルメェス・コステロ',
-    image: 'scolippi.png',
+    image: 'ermes.webp',
     abilities: 'Kiss',
     nationality: 'Mexican-American',
     catchphrase: '"Revenge" is for settling your score with your own destiny!',
@@ -1226,7 +1226,7 @@ const characters = [
   {
     name: 'Emporio Alniño',
     japaneseName:'エンポリオ・アルニーニョ',
-    image: 'scolippi.png',
+    image: 'emporio.png',
     abilities: 'Burning Down the House, Weather Report',
     nationality: 'American',
     catchphrase: 'Don\'t you see it? You lost to your own "fate". Walking the path of "Justice" is true "Fate"!',
@@ -1238,7 +1238,7 @@ const characters = [
   {
     name: 'Foo Fighters (F.F.)',
     japaneseName:'フー・ファイターズ',
-    image: 'scolippi.png',
+    image: 'foofighters.png',
     abilities: 'Foo Fighters (Stand/Human Hybrid)',
     nationality: 'none',
     catchphrase: 'Look at me Jolyne. This is my "spirit"... This is my "intellect"... I was alive.',
@@ -1250,7 +1250,7 @@ const characters = [
   {
     name: 'Narciso Anasui',
     japaneseName:'ナルシソ・アナスイ',
-    image: 'scolippi.png',
+    image: 'narciso.png',
     abilities: 'Diver Down',
     nationality: 'unknown',
     catchphrase: 'I love you... I\'ve been dying to come here for you...',
@@ -1262,7 +1262,7 @@ const characters = [
   {
     name: 'Weather Report (Weather Forecast)',
     japaneseName:'ウェザー・リポート',
-    image: 'scolippi.png',
+    image: 'weather.png',
     abilities: 'Weather Report',
     nationality: 'Italian-American',
     catchphrase: 'I\'m going to be the one to kill Pucci. And after I kill him, kill me. Understand?',
@@ -1274,7 +1274,7 @@ const characters = [
   {
     name: 'Gwess',
     japaneseName:'グェス',
-    image: 'scolippi.png',
+    image: 'gwess.webp',
     abilities: 'Goo Goo Dolls',
     nationality: 'American',
     catchphrase: 'Even though I said you can\'t speak, you can still say cute things. Like "I wanna walk", "I\'m hungry", and "Good night". Got it?',
@@ -1286,7 +1286,7 @@ const characters = [
   {
     name: 'Enrico Pucci',
     japaneseName:'エンリコ・プッチ',
-    image: 'scolippi.png',
+    image: 'pucci.webp',
     abilities: 'Whitesnake, C-Moon, Made in Heaven',
     nationality: 'Italian-American',
     catchphrase: '2... 3... 5... 7... 11... 13...',
@@ -1298,7 +1298,7 @@ const characters = [
   {
     name: 'Donatello Versus',
     japaneseName:'ドナテロ・ヴェルサス',
-    image: 'scolippi.png',
+    image: 'donatello.png',
     abilities: 'Under World',
     nationality: 'unknown',
     catchphrase: 'I can\'t die here! I have a right to be happy!',
@@ -1310,7 +1310,7 @@ const characters = [
   {
     name: 'Rikiel',
     japaneseName: 'リキエル',
-    image: 'scolippi.png',
+    image: 'rikiel.webp',
     abilities: 'Sky High',
     nationality: 'unknown',
     catchphrase: 'I overcame my own heart! I\'ll never panic again... I\'m going to reclaim my life, with my own hands! I\'m Apollo !!!',
@@ -1322,7 +1322,7 @@ const characters = [
   {
     name: 'Ungalo',
     japaneseName: 'ウンガロ',
-    image: 'scolippi.png',
+    image: 'ungalo.png',
     abilities: 'Bohemian Rhapsody',
     nationality: 'unknown',
     catchphrase: 'All I\'ve done \'til now is wander around aimlessly, just sinking lower and lower without knowing why...but now I get it! I existed for this "ability"!',
@@ -1334,7 +1334,7 @@ const characters = [
   {
     name: 'The Green Baby',
     japaneseName: '緑色の赤ちゃん',
-    image: 'scolippi.png',
+    image: 'greenbaby.png',
     abilities: 'Green, Green Grass of Home',
     nationality: 'unknown',
     catchphrase: 'none',
@@ -1346,7 +1346,7 @@ const characters = [
   {
     name: 'Johngalli A',
     japaneseName: 'ジョンガリ・A',
-    image: 'scolippi.png',
+    image: 'johngalli.png',
     abilities: 'Manhattan Transfer, Marksmanship',
     nationality: 'unknown',
     catchphrase: 'Meteorologists say the wind\'s movements are unpredictable. They have a point. But the wind isn\'t completely unreadable.',
@@ -1358,7 +1358,7 @@ const characters = [
   {
     name: 'Sports Maxx',
     japaneseName: 'スポーツ・マックス',
-    image: 'scolippi.png',
+    image: 'sportsmaxx.png',
     abilities: 'Limp Bizkit, Zombie',
     nationality: 'American',
     catchphrase: 'Listen... I\'m gonna go ahead and suck your brains out, right now... And even if I rip out all the shit in your stomach and fill your empty skull with it, I won\'t be satisfied!!',
@@ -1370,7 +1370,7 @@ const characters = [
   {
     name: 'Miuccia Miuller (Miu Miu)',
     japaneseName: 'ミューミューミュッチャー・ミューラー',
-    image: 'scolippi.png',
+    image: 'miucca.png',
     abilities: 'Jail House Lock',
     nationality: 'American',
     catchphrase: 'There\'s no one who can escape my Jail House Lock!!!',
@@ -1381,7 +1381,7 @@ const characters = [
   {
     name: 'Miraschon',
     japaneseName: 'ミラション',
-    image: 'scolippi.png',
+    image: 'miraschon.webp',
     abilities: 'Marilyn Manson',
     nationality: 'American',
     catchphrase: 'My name is Miraschon, prisoner number FE26789. You\'re at 87 throws, right? Your little game of catch, I\'m willing to bet that it won\'t last 100 throws...',
@@ -1392,7 +1392,7 @@ const characters = [
   {
     name: 'Lang Rangler',
     japaneseName: 'ラング·ラングラー',
-    image: 'scolippi.png',
+    image: 'lang.png',
     abilities: 'Jumpin\' Jack Flash, Suction Cup hands/feet',
     nationality: 'American',
     catchphrase: 'I\'m gonna carve your f*ckin epitaph on your pretty white skin!',
@@ -1403,7 +1403,7 @@ const characters = [
   {
     name: 'Kenzou',
     japaneseName: 'ケンゾー',
-    image: 'scolippi.png',
+    image: 'kenzou.png',
     abilities: 'Dragon\'s Dream',
     nationality: 'unknown',
     catchphrase: 'You there! Do you want to drown too?',
@@ -1414,7 +1414,7 @@ const characters = [
   {
     name: 'D an G',
     japaneseName: 'DアンG',
-    image: 'scolippi.png',
+    image: 'DG.webp',
     abilities: 'Yo-Yo Ma',
     nationality: 'unknown',
     catchphrase: 'No one told me that this would happen... My job was supposed to be simple... "Kill Jolyne Cujoh". That\'s what I was told, and that\'s what I\'m gonna do...',
@@ -1425,7 +1425,7 @@ const characters = [
   {
     name: 'Guccio',
     japaneseName: 'グッチョ',
-    image: 'scolippi.png',
+    image: 'guccio.png',
     abilities: 'Survivor',
     nationality: 'unknown',
     catchphrase: 'I don\'t know what you\'re talking about... Hahh, hahh... My name is Guccio... I... just don\'t want to become a plant... Please, I\'m so scared...',
@@ -1436,7 +1436,7 @@ const characters = [
   {
     name: 'Viviano Westwood',
     japaneseName: 'ヴィヴァーノ・ウエストウッド',
-    image: 'scolippi.png',
+    image: 'viviano.webp',
     abilities: 'Planet Waves, Wrestling',
     nationality: 'unknown',
     catchphrase: 'I\'m gonna release my fury, I\'m gonna snap and release everything I\'ve got! I\'m gonna release it, release it, release it! I\'m the strongest!',
@@ -1447,7 +1447,7 @@ const characters = [
   {
     name: 'Thunder McQueen',
     japaneseName: 'サンダー・マックイイーン',
-    image: 'scolippi.png',
+    image: 'thunder.webp',
     abilities: 'Highway to Hell',
     nationality: 'unknown',
     catchphrase: 'I feel like dying.',
