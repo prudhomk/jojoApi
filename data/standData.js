@@ -643,7 +643,7 @@ const stands = [
     name: 'Chariot Requiem',
     alternateName: 'Requiem',
     japaneseName: 'チャリオッツ・レクイエム',
-    image: 'chariotrequirem.png',
+    image: 'chariotrequiem.png',
     standUser: '82',
     chapter: 'Vento Aureo',
     abilities: 'Regeneration, Soul Manipulation, Grand Scale Soul Swapping, Stand Manipulation, Complete Alteration of All Life, Autonomy',
