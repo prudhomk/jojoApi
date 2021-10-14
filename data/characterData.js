@@ -1374,6 +1374,7 @@ const characters = [
     abilities: 'Jail House Lock',
     nationality: 'American',
     catchphrase: 'There\'s no one who can escape my Jail House Lock!!!',
+    family: 'none',
     chapter: 'Stone Ocean',
     living: true,
     isHuman: true
@@ -1385,6 +1386,7 @@ const characters = [
     abilities: 'Marilyn Manson',
     nationality: 'American',
     catchphrase: 'My name is Miraschon, prisoner number FE26789. You\'re at 87 throws, right? Your little game of catch, I\'m willing to bet that it won\'t last 100 throws...',
+    family: 'none',
     chapter: 'Stone Ocean',
     living: true,
     isHuman: true
@@ -1396,6 +1398,7 @@ const characters = [
     abilities: 'Jumpin\' Jack Flash, Suction Cup hands/feet',
     nationality: 'American',
     catchphrase: 'I\'m gonna carve your f*ckin epitaph on your pretty white skin!',
+    family: 'none',
     chapter: 'Stone Ocean',
     living: false,
     isHuman: true
@@ -1407,6 +1410,7 @@ const characters = [
     abilities: 'Dragon\'s Dream',
     nationality: 'unknown',
     catchphrase: 'You there! Do you want to drown too?',
+    family: 'none',
     chapter: 'Stone Ocean',
     living: true,
     isHuman: true
@@ -1418,6 +1422,7 @@ const characters = [
     abilities: 'Yo-Yo Ma',
     nationality: 'unknown',
     catchphrase: 'No one told me that this would happen... My job was supposed to be simple... "Kill Jolyne Cujoh". That\'s what I was told, and that\'s what I\'m gonna do...',
+    family: 'none',
     chapter: 'Stone Ocean',
     living: false,
     isHuman: true
@@ -1429,6 +1434,7 @@ const characters = [
     abilities: 'Survivor',
     nationality: 'unknown',
     catchphrase: 'I don\'t know what you\'re talking about... Hahh, hahh... My name is Guccio... I... just don\'t want to become a plant... Please, I\'m so scared...',
+    family: 'none',
     chapter: 'Stone Ocean',
     living: false,
     isHuman: true
@@ -1440,6 +1446,7 @@ const characters = [
     abilities: 'Planet Waves, Wrestling',
     nationality: 'unknown',
     catchphrase: 'I\'m gonna release my fury, I\'m gonna snap and release everything I\'ve got! I\'m gonna release it, release it, release it! I\'m the strongest!',
+    family: 'none',
     chapter: 'Stone Ocean',
     living: true,
     isHuman: true
@@ -1451,6 +1458,7 @@ const characters = [
     abilities: 'Highway to Hell',
     nationality: 'unknown',
     catchphrase: 'I feel like dying.',
+    family: 'none',
     chapter: 'Stone Ocean',
     living: true,
     isHuman: true
