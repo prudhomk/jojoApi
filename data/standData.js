@@ -573,7 +573,7 @@ const stands = [
     name: 'Gold Experience Requiem',
     alternateName: 'Golden Wind Requiem',
     japaneseName: 'ゴールド・エクスペリエンス・レクイエム',
-    image: 'goldrequirem.png',
+    image: 'goldrequiem.png',
     standUser: '75',
     chapter: 'Vento Aureo',
     abilities: 'Return to Zero, Life Giver, Super Strength, Super Speed, Autonomy',
