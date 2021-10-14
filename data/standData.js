@@ -829,6 +829,246 @@ const stands = [
     abilities: 'Homing to Dying Target',
     battlecry: 'none'
   },
+  {
+    name: 'Stone Free',
+    alternateName: 'Stone Ocean',
+    japaneseName: 'ストーン・フリー',
+    image: 'rollingstone.webp',
+    standUser: '101',
+    chapter: 'Stone Ocean',
+    abilities: 'String Decomposition, String Manipulation, Speed, Strength',
+    battlecry: 'ORA ORA ORA'
+  },
+  {
+    name: 'Kiss',
+    alternateName: 'none',
+    japaneseName: 'キッス',
+    image: 'rollingstone.webp',
+    standUser: '102',
+    chapter: 'Stone Ocean',
+    abilities: 'Duplicating Stickers',
+    battlecry: 'OSHAAAA!'
+  },
+  {
+    name: 'Burning Down the House',
+    alternateName: 'none',
+    japaneseName: 'バーニング・ダウン・ザ・ハウス',
+    image: 'rollingstone.webp',
+    standUser: '103',
+    chapter: 'Stone Ocean',
+    abilities: 'Ghost Objects, Ghost Room',
+    battlecry: 'none'
+  },
+  {
+    name: 'Foo Fighters',
+    alternateName: 'none',
+    japaneseName: 'フー・ファイターズ',
+    image: 'rollingstone.webp',
+    standUser: '104',
+    chapter: 'Stone Ocean',
+    abilities: 'Plankton Colony Form, Body Invasion, Water Control, Plankton Shot, Wound Seal',
+    battlecry: 'none'
+  },
+  {
+    name: 'Diver Down',
+    alternateName: 'none',
+    japaneseName: 'ダイバー・ダウン',
+    image: 'rollingstone.webp',
+    standUser: '105',
+    chapter: 'Stone Ocean',
+    abilities: 'Stand Power Storage, Restructuring',
+    battlecry: 'none'
+  },
+  {
+    name: 'Weather Report',
+    alternateName: 'none',
+    japaneseName: 'ウェザー・リポート',
+    image: 'rollingstone.webp',
+    standUser: '106',
+    chapter: 'Stone Ocean',
+    abilities: 'Weather Control, Air and Wind Manipulation, Humidity and Cloud Manipulation, Oxygen Build-Up, Cloud Suit, Heavy Weather, Snail Projection',
+    battlecry: 'none'
+  },
+  {
+    name: 'Goo Goo Dolls',
+    alternateName: 'none',
+    japaneseName: 'グー・グー・ドールズ',
+    image: 'rollingstone.webp',
+    standUser: '107',
+    chapter: 'Stone Ocean',
+    abilities: 'Size Reduction',
+    battlecry: 'none'
+  },
+  {
+    name: 'Whitesnake',
+    alternateName: 'none',
+    japaneseName: 'ホワイトスネイク',
+    image: 'rollingstone.webp',
+    standUser: '108',
+    chapter: 'Stone Ocean',
+    abilities: '"Melt Your Heart", Illusion, Disc Creation',
+    battlecry: 'UOSHAAA!'
+  },
+  {
+    name: 'C-Moon',
+    alternateName: 'none',
+    japaneseName: 'C-Moon',
+    image: 'rollingstone.webp',
+    standUser: '108',
+    chapter: 'Stone Ocean',
+    abilities: 'Gravity Shift, Surface Inversion, Time Acceleration, Speed, Power',
+    battlecry: 'USHYAAA!'
+  },
+  {
+    name: 'Made in Heaven',
+    alternateName: 'none',
+    japaneseName: 'メイド・イン・ヘブン',
+    image: 'rollingstone.webp',
+    standUser: '108',
+    chapter: 'Stone Ocean',
+    abilities: 'Time Acceleration, Universal Reset',
+    battlecry: 'none'
+  },
+  {
+    name: 'Under World',
+    alternateName: 'none',
+    japaneseName: 'アンダー・ワールド',
+    image: 'rollingstone.webp',
+    standUser: '109',
+    chapter: 'Stone Ocean',
+    abilities: 'Memory Unearthing',
+    battlecry: 'none'
+  },
+  {
+    name: 'Sky High',
+    alternateName: 'none',
+    japaneseName: 'スカイ・ハイ',
+    image: 'rollingstone.webp',
+    standUser: '110',
+    chapter: 'Stone Ocean',
+    abilities: 'Rods (sky fish), Rod Manipulation, Localized Illness',
+    battlecry: 'none'
+  },
+  {
+    name: 'Bohemian Rhapsody',
+    alternateName: 'none',
+    japaneseName: 'ボヘミアン・ラプソディー (自由人の狂想曲)',
+    image: 'rollingstone.webp',
+    standUser: '111',
+    chapter: 'Stone Ocean',
+    abilities: 'Fiction Realization',
+    battlecry: 'none'
+  },
+  {
+    name: 'Green, Green Grass of Home',
+    alternateName: 'none',
+    japaneseName: 'グリーン・グリーン・グラス・オブ・ホーム',
+    image: 'rollingstone.webp',
+    standUser: '112',
+    chapter: 'Stone Ocean',
+    abilities: 'Shrinking',
+    battlecry: 'none'
+  },
+  {
+    name: 'Manhattan Transfer',
+    alternateName: 'none',
+    japaneseName: 'マンハッタン・トランスファー',
+    image: 'rollingstone.webp',
+    standUser: '113',
+    chapter: 'Stone Ocean',
+    abilities: 'Wind Reading, Bullet Redirection',
+    battlecry: 'none'
+  },
+  {
+    name: 'Limp Bizkit',
+    alternateName: 'Flaccid Pancake',
+    japaneseName: 'リンプ・ビズキット',
+    image: 'rollingstone.webp',
+    standUser: '114',
+    chapter: 'Stone Ocean',
+    abilities: 'Invisible Reincarnation',
+    battlecry: 'none'
+  },
+  {
+    name: 'Jail House Lock',
+    alternateName: 'none',
+    japaneseName: 'ジェイル・ハウス・ロック（JAIL HOUSE LOCK)',
+    image: 'rollingstone.webp',
+    standUser: '115',
+    chapter: 'Stone Ocean',
+    abilities: 'Short-term Memory Loss',
+    battlecry: 'none'
+  },
+  {
+    name: 'Marilyn Manson',
+    alternateName: 'none',
+    japaneseName: '取り立て人マリリン・マンソン',
+    image: 'rollingstone.webp',
+    standUser: '116',
+    chapter: 'Stone Ocean',
+    abilities: 'Debt Collection',
+    battlecry: 'none'
+  },
+  {
+    name: 'Jumpin\' Jack Flash',
+    alternateName: 'none',
+    japaneseName: 'ジャンピン・ジャック・フラッシュ',
+    image: 'rollingstone.webp',
+    standUser: '117',
+    chapter: 'Stone Ocean',
+    abilities: 'Gravitational Removal, Built-in Centrifuges',
+    battlecry: 'none'
+  },
+  {
+    name: 'Dragon\'s Dream',
+    alternateName: 'none',
+    japaneseName: 'ドラゴンズ・ドリーム（龍の夢)',
+    image: 'rollingstone.webp',
+    standUser: '118',
+    chapter: 'Stone Ocean',
+    abilities: 'Autonomy, Feng Shui, Feng Shui Luck Reading, Neutrality',
+    battlecry: 'none'
+  },
+  {
+    name: 'Yo-Yo Ma',
+    alternateName: 'none',
+    japaneseName: 'ヨーヨーマッ',
+    image: 'rollingstone.webp',
+    standUser: '119',
+    chapter: 'Stone Ocean',
+    abilities: 'Automatic Stand, Intelligence, Acid Saliva, Indestructible',
+    battlecry: 'none'
+  },
+  {
+    name: 'Survivor',
+    alternateName: 'none',
+    japaneseName: 'サバイバー',
+    image: 'rollingstone.webp',
+    standUser: '120',
+    chapter: 'Stone Ocean',
+    abilities: 'Aggresiveness Stimulation, Automatic Stand',
+    battlecry: 'none'
+  },
+  {
+    name: 'Planet Waves',
+    alternateName: 'none',
+    japaneseName: 'プラネット・ウェイブス',
+    image: 'rollingstone.webp',
+    standUser: '121',
+    chapter: 'Stone Ocean',
+    abilities: 'Meteorite Attraction',
+    battlecry: 'none'
+  },
+  {
+    name: 'Highway to Hell',
+    alternateName: 'none',
+    japaneseName: 'ハイウェイ・トゥ・ヘル (地獄のハイウェイ)',
+    image: 'rollingstone.webp',
+    standUser: '122',
+    chapter: 'Stone Ocean',
+    abilities: 'Damage Sharing',
+    battlecry: 'none'
+  },
 ];
 
 
