@@ -1003,7 +1003,7 @@ const stands = [
     name: 'Marilyn Manson',
     alternateName: 'none',
     japaneseName: '取り立て人マリリン・マンソン',
-    image: 'marilynmanson.webp',
+    image: 'marilynmanson.png',
     standUser: '116',
     chapter: 'Stone Ocean',
     abilities: 'Debt Collection',
