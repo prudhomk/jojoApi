@@ -1069,6 +1069,226 @@ const stands = [
     abilities: 'Damage Sharing',
     battlecry: 'none'
   },
+  {
+    name: 'Tusk',
+    alternateName: 'none',
+    japaneseName: 'タスク',
+    image: 'tusk.jpg',
+    standUser: '123',
+    chapter: 'Steel Ball Run, Jojolion',
+    abilities: 'ACT1: Spinning Nails, ACT2: Golden Rectangle Nails, ACT3: Spatial Wormhole, ACT4: Infinite Rotation',
+    battlecry: 'Chumimi~in! ORAORAORA!'
+  },
+  {
+    name: 'Ball Breaker',
+    alternateName: 'none',
+    japaneseName: 'ボール・ブレイカー',
+    image: 'ballbreaker.png',
+    standUser: '124',
+    chapter: 'Steel Ball Run',
+    abilities: 'Golden Spin, Spin',
+    battlecry: 'none'
+  },
+  {
+    name: 'Ticket to Ride',
+    alternateName: 'none',
+    japaneseName: '涙の乗車券',
+    image: 'ticket.png',
+    standUser: '125',
+    chapter: 'Steel Ball Run',
+    abilities: 'Blade of Tears, Divine Protection',
+    battlecry: 'none'
+  },
+  {
+    name: 'Cream Starter',
+    alternateName: 'none',
+    japaneseName: 'クリーム・スターター',
+    image: 'creamstarter.webp',
+    standUser: '127',
+    chapter: 'Steel Ball Run',
+    abilities: 'Flesh Spray',
+    battlecry: 'none'
+  },
+  {
+    name: 'Oh! Lonesome Me',
+    alternateName: 'none',
+    japaneseName: 'オー！ロンサム・ミー',
+    image: 'lonesome.webp',
+    standUser: '128',
+    chapter: 'Steel Ball Run',
+    abilities: 'Rope Transfer',
+    battlecry: 'none'
+  },
+  {
+    name: 'Scary Monsters',
+    alternateName: 'none',
+    japaneseName: 'スケアリー・モンスターズ',
+    image: 'scarymonsters.webp',
+    standUser: '129',
+    chapter: 'Steel Ball Run',
+    abilities: 'Dinosaur Infection, Dinosaur Morph, Fossilization',
+    battlecry: 'USHAAA!'
+  },
+  {
+    name: '20th Century Boy',
+    alternateName: 'none',
+    japaneseName: '20th Century BOY（トウェンティース・センチュリー・ボーイ)',
+    image: '20thcentury.webp',
+    standUser: '131',
+    chapter: 'Steel Ball Run',
+    abilities: 'Absolute Defense',
+    battlecry: 'none'
+  },
+  {
+    name: 'Hey Ya!',
+    alternateName: 'none',
+    japaneseName: 'ヘイ・ヤー',
+    image: 'heyya.webp',
+    standUser: '132',
+    chapter: 'Steel Ball Run',
+    abilities: 'Cheer On',
+    battlecry: 'Keep on rushing forward!! After all, there is nothing but luck inside your bag!'
+  },
+  {
+    name: 'Dirty Deeds Done Dirt Cheap',
+    alternateName: 'D4C, Filthy Acts at a Reasonable Price',
+    japaneseName: 'ダーティー・ディーズ・ダン・ダート・チープ',
+    image: 'd4c.webp',
+    standUser: '133',
+    chapter: 'Steel Ball Run',
+    abilities: 'Dimension Hop, Love Train, Misfortune Redirection',
+    battlecry: 'DOJYAAN!'
+  },
+  {
+    name: 'Catch the Rainbow',
+    alternateName: 'none',
+    japaneseName: 'キャッチ・ザ・レインボー',
+    image: 'catchtherainbow.jpg',
+    standUser: '134',
+    chapter: 'Steel Ball Run',
+    abilities: 'Mask Form, Rain Manipulation',
+    battlecry: 'none'
+  },
+  {
+    name: 'Tubular Bells',
+    alternateName: 'none',
+    japaneseName: 'チューブラー・ベルズ',
+    image: 'tubularbells.png',
+    standUser: '135',
+    chapter: 'Steel Ball Run',
+    abilities: 'Metal Blowing',
+    battlecry: 'none'
+  },
+  {
+    name: 'Mandom',
+    alternateName: 'none',
+    japaneseName: 'マンダム',
+    image: 'mandom.jpg',
+    standUser: '136',
+    chapter: 'Steel Ball Run',
+    abilities: 'Time Rewind',
+    battlecry: 'none'
+  },
+  {
+    name: 'Civil War',
+    alternateName: 'none',
+    japaneseName: 'シビル・ウォー',
+    image: 'civilwar.webp',
+    standUser: '137',
+    chapter: 'Steel Ball Run',
+    abilities: 'Guilt Materialization, Guilt Reanimation',
+    battlecry: 'none'
+  },
+  {
+    name: 'Chocolate Disco',
+    alternateName: 'none',
+    japaneseName: 'チョコレート・ディスコ',
+    image: 'chocolatedisco.webp',
+    standUser: '139',
+    chapter: 'Steel Ball Run',
+    abilities: 'Teleporting Grid',
+    battlecry: 'none'
+  },
+  {
+    name: 'Tatoo You!',
+    alternateName: 'none',
+    japaneseName: 'タトゥーユー！',
+    image: 'tatoo.webp',
+    standUser: '140',
+    chapter: 'Steel Ball Run',
+    abilities: 'Body Slide, Multiple Users',
+    battlecry: 'none'
+  },
+  {
+    name: 'Wired',
+    alternateName: 'none',
+    japaneseName: 'ワイアード',
+    image: 'wired.webp',
+    standUser: '141',
+    chapter: 'Steel Ball Run',
+    abilities: 'Tongue Hooks',
+    battlecry: 'none'
+  },
+  {
+    name: 'In a Silent Way',
+    alternateName: 'none',
+    japaneseName: 'イン・ア・サイレント・ウェイ',
+    image: 'silentway.jpg',
+    standUser: '142',
+    chapter: 'Steel Ball Run',
+    abilities: 'Sound Storage, Sound Construct',
+    battlecry: 'none'
+  },
+  {
+    name: 'Tomb of the Boom 1',
+    alternateName: 'none',
+    japaneseName: 'トゥーム・オブ・ザ・ブーム',
+    image: 'tomb1.png',
+    standUser: '143',
+    chapter: 'Steel Ball Run',
+    abilities: 'Magnetism, Metal Replication, Hidden Blades',
+    battlecry: 'none'
+  },
+  {
+    name: 'Tomb of the Boom 2',
+    alternateName: 'none',
+    japaneseName: 'トゥーム・オブ・ザ・ブーム',
+    image: 'tomb2.png',
+    standUser: '144',
+    chapter: 'Steel Ball Run',
+    abilities: 'Extreme Magnetism',
+    battlecry: 'none'
+  },
+  {
+    name: 'Tomb of the Boom 3',
+    alternateName: 'none',
+    japaneseName: 'トゥーム・オブ・ザ・ブーム',
+    image: 'tomb3.png',
+    standUser: '145',
+    chapter: 'Steel Ball Run',
+    abilities: 'Magnetism, Iron Sand, Iron Manipulation',
+    battlecry: 'none'
+  },
+  {
+    name: 'Boku no Rhythm wo Kiitekure',
+    alternateName: 'none',
+    japaneseName: 'ボクのリズムを聴いてくれ',
+    image: 'boku.webp',
+    standUser: '147',
+    chapter: 'Steel Ball Run',
+    abilities: 'Contact Bombs',
+    battlecry: 'none'
+  },
+  {
+    name: 'Sugar Mountain',
+    alternateName: 'none',
+    japaneseName: 'シュガー・マウンテンの泉',
+    image: 'sugartree.webp',
+    standUser: '148',
+    chapter: 'Steel Ball Run',
+    abilities: 'The Guardian, Trial of Avidity, Trial of Avarice',
+    battlecry: 'none'
+  },
 ];
 
 
