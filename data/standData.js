@@ -1289,6 +1289,256 @@ const stands = [
     abilities: 'The Guardian, Trial of Avidity, Trial of Avarice',
     battlecry: 'none'
   },
+  {
+    name: 'Soft & Wet',
+    alternateName: 'none',
+    japaneseName: 'ソフト＆ウェット',
+    image: 'sugartree.webp',
+    standUser: '150',
+    chapter: 'Jojolion',
+    abilities: 'Spin, Bubble Generation, Plunder, Bomb Creation, Go Beyond',
+    battlecry: 'ORA ORA ORA'
+  },
+  {
+    name: 'Paisley Park',
+    alternateName: 'none',
+    japaneseName: 'ペイズリー・パーク',
+    image: 'sugartree.webp',
+    standUser: '151',
+    chapter: 'Jojolion',
+    abilities: 'Guidance, Electronics Manipulation, Shapeshifting',
+    battlecry: 'none'
+  },
+  {
+    name: 'Doggy Style',
+    alternateName: 'none',
+    japaneseName: 'ドギー・スタイル',
+    image: 'sugartree.webp',
+    standUser: '152',
+    chapter: 'Jojolion',
+    abilities: 'Skin Peeling, Spin',
+    battlecry: 'none'
+  },
+  {
+    name: 'Nut King Call',
+    alternateName: 'none',
+    japaneseName: 'ナット・キング・コール',
+    image: 'sugartree.webp',
+    standUser: '153',
+    chapter: 'Jojolion',
+    abilities: 'Nuts and Bolts',
+    battlecry: 'none'
+  },
+  {
+    name: 'Paper Moon King',
+    alternateName: 'none',
+    japaneseName: 'ペーパー・ムーン・キング',
+    image: 'sugartree.webp',
+    standUser: '154',
+    chapter: 'Jojolion',
+    abilities: 'Living Origami, Sensory Manipulation',
+    battlecry: 'none'
+  },
+  {
+    name: 'King Nothing',
+    alternateName: 'none',
+    japaneseName: 'キング・ナッシング',
+    image: 'sugartree.webp',
+    standUser: '155',
+    chapter: 'Jojolion',
+    abilities: 'Scent Tracking, Jigsaw Constitution',
+    battlecry: 'none'
+  },
+  {
+    name: 'Space Trucking',
+    alternateName: 'none',
+    japaneseName: 'スペース・トラッキング',
+    image: 'sugartree.webp',
+    standUser: '156',
+    chapter: 'Jojolion',
+    abilities: 'Dimensional Storage',
+    battlecry: 'none'
+  },
+  {
+    name: 'California King Bed',
+    alternateName: 'none',
+    japaneseName: 'カリフォルニア・キング・ベッドちゃん',
+    image: 'sugartree.webp',
+    standUser: '157',
+    chapter: 'Jojolion',
+    abilities: 'Memory Theft',
+    battlecry: 'none'
+  },
+  {
+    name: 'Walking Heart',
+    alternateName: 'none',
+    japaneseName: 'ウォーキング・ハート',
+    image: 'sugartree.webp',
+    standUser: '158',
+    chapter: 'Jojolion',
+    abilities: 'Heel Spikes',
+    battlecry: 'none'
+  },
+  {
+    name: 'Speed King',
+    alternateName: 'none',
+    japaneseName: 'スピード・キング',
+    image: 'sugartree.webp',
+    standUser: '159',
+    chapter: 'Jojolion',
+    abilities: 'Heat Accumulation',
+    battlecry: 'none'
+  },
+  {
+    name: 'Awaking III Leaves',
+    alternateName: 'none',
+    japaneseName: 'アウェイキング・三リーブス',
+    image: 'sugartree.webp',
+    standUser: '160',
+    chapter: 'Jojolion',
+    abilities: 'Vector Manipulation',
+    battlecry: 'none'
+  },
+  {
+    name: 'Born This Way',
+    alternateName: 'none',
+    japaneseName: 'ボーン・ディス・ウェイ',
+    image: 'sugartree.webp',
+    standUser: '161',
+    chapter: 'Jojolion',
+    abilities: 'Motorcycle, Summon Through Opening, Freezing Wind',
+    battlecry: 'none'
+  },
+  {
+    name: 'Killer Queen',
+    alternateName: 'none',
+    japaneseName: 'キラークイーン',
+    image: 'sugartree.webp',
+    standUser: '162',
+    chapter: 'Jojolion',
+    abilities: 'Exploding Bubbles',
+    battlecry: 'WRYYYYYEEEEAH!'
+  },
+  {
+    name: 'Love Love Deluxe',
+    alternateName: 'none',
+    japaneseName: 'ラブラブデラックス',
+    image: 'sugartree.webp',
+    standUser: '164',
+    chapter: 'Jojolion',
+    abilities: 'Hair Growth',
+    battlecry: 'none'
+  },
+  {
+    name: 'Vitamin C',
+    alternateName: 'none',
+    japaneseName: 'ビタミンC',
+    image: 'sugartree.webp',
+    standUser: '165',
+    chapter: 'Jojolion',
+    abilities: 'Organic Softening',
+    battlecry: 'none'
+  },
+  {
+    name: 'I Am a Rock',
+    alternateName: 'none',
+    japaneseName: 'アイ・アム・ア・ロック',
+    image: 'sugartree.webp',
+    standUser: '166',
+    chapter: 'Jojolion',
+    abilities: 'Selective Attraction',
+    battlecry: 'none'
+  },
+  {
+    name: 'Doobie Wah!',
+    alternateName: 'none',
+    japaneseName: 'ドゥービー・ワゥ！',
+    image: 'sugartree.webp',
+    standUser: '167',
+    chapter: 'Jojolion',
+    abilities: 'Pursuing Vortex',
+    battlecry: 'none'
+  },
+  {
+    name: 'Schott Key No.1',
+    alternateName: 'none',
+    japaneseName: 'ショット・キーNo.1',
+    image: 'sugartree.webp',
+    standUser: '168',
+    chapter: 'Jojolion',
+    abilities: 'Left Hand-Right Hand Transference',
+    battlecry: 'none'
+  },
+  {
+    name: 'Schott Key No.2',
+    alternateName: 'none',
+    japaneseName: 'ショット・キーNo.2',
+    image: 'sugartree.webp',
+    standUser: '168',
+    chapter: 'Jojolion',
+    abilities: 'Toxic Gas',
+    battlecry: 'none'
+  },
+  {
+    name: 'Blue Hawaii',
+    alternateName: 'none',
+    japaneseName: 'ブルー・ハワイ',
+    image: 'sugartree.webp',
+    standUser: '169',
+    chapter: 'Jojolion',
+    abilities: 'Mind control Contagion',
+    battlecry: 'none'
+  },
+  {
+    name: 'Brain Storm',
+    alternateName: 'none',
+    japaneseName: 'ブレイン・ストーム',
+    image: 'sugartree.webp',
+    standUser: '170',
+    chapter: 'Jojolion',
+    abilities: 'Hemolysis',
+    battlecry: 'none'
+  },
+  {
+    name: 'Ozon Baby',
+    alternateName: 'none',
+    japaneseName: 'オゾン・ベイビー',
+    image: 'sugartree.webp',
+    standUser: '171',
+    chapter: 'Jojolion',
+    abilities: 'Pressure Manipulation',
+    battlecry: 'none'
+  },
+  {
+    name: 'Doctor Wu',
+    alternateName: 'none',
+    japaneseName: 'ドクター・ウー',
+    image: 'sugartree.webp',
+    standUser: '172',
+    chapter: 'Jojolion',
+    abilities: 'Gravel Transformation',
+    battlecry: 'none'
+  },
+  {
+    name: 'Wonder of U',
+    alternateName: 'none',
+    japaneseName: 'ワンダー・オブ・U',
+    image: 'sugartree.webp',
+    standUser: '174',
+    chapter: 'Jojolion',
+    abilities: 'Sentience, Autonomy, Identity Assumption, Long-Range Illusion Creation, Calamity Manipulation, Knowledge',
+    battlecry: 'The flow of things will always lead to calamity.'
+  },
+  {
+    name: 'Fun Fun Fun',
+    alternateName: 'none',
+    japaneseName: 'ファン・ファン・ファン',
+    image: 'sugartree.webp',
+    standUser: '175',
+    chapter: 'Jojolion',
+    abilities: 'Body Manipulation',
+    battlecry: 'none'
+  },
 ];
 
 
