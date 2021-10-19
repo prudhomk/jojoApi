@@ -1790,7 +1790,7 @@ const characters = [
   {
     name: 'Josuke Higashikata (Fusion)',
     japaneseName: '東方 定助',
-    image: 'jesus.webp',
+    image: 'josuke8.webp',
     abilities: 'Soft & Wet, Sight, Hand-to-Hand Combat, Intelligence',
     nationality: 'Japanese',
     catchphrase: 'Who the hell am I?',
@@ -1802,7 +1802,7 @@ const characters = [
   {
     name: 'Yasuho Hirose',
     japaneseName: '広瀬康穂',
-    image: 'jesus.webp',
+    image: 'yasuho.png',
     abilities: 'Paisley Park',
     nationality: 'Japanese',
     catchphrase: 'Finding those traces and going! Progressing beyond! That is my Stand... Paisley Park.',
@@ -1814,7 +1814,7 @@ const characters = [
   {
     name: 'Rai Mamezuku',
     japaneseName: '豆銑礼',
-    image: 'jesus.webp',
+    image: 'rai.png',
     abilities: 'Doggy Style, Horticulture',
     nationality: 'Japanese',
     catchphrase: 'I know I sound like a broken record but 89 YEARS OLD?!',
@@ -1826,7 +1826,7 @@ const characters = [
   {
     name: 'Joshu Higashikata',
     japaneseName: '東方 常秀',
-    image: 'jesus.webp',
+    image: 'joshu.png',
     abilities: 'Nut King Call',
     nationality: 'Japanese',
     catchphrase: 'But I... don\'t even have that kind of talent, do I...? Even if it\'s just a little... I have something, right?',
@@ -1838,7 +1838,7 @@ const characters = [
   {
     name: 'Tsurugi Higashikata',
     japaneseName: '東方 つるぎ',
-    image: 'jesus.webp',
+    image: 'tsurugi.webp',
     abilities: 'Paper Moon King',
     nationality: 'Japanese',
     catchphrase: 'What do you need to be happy?',
@@ -1850,7 +1850,7 @@ const characters = [
   {
     name: 'Norisuke Higashikata IV',
     japaneseName: '四代目東方憲助',
-    image: 'jesus.webp',
+    image: 'norisuke.png',
     abilities: 'King Nothing',
     nationality: 'Japanese',
     catchphrase: 'Everything here has a natural "flow". Now "flow" is a metaphor, but if you don\'t fight it, you\'ll definitely reach your goal.',
@@ -1862,7 +1862,7 @@ const characters = [
   {
     name: 'Kaato Higashikata',
     japaneseName: '東方 花都',
-    image: 'jesus.webp',
+    image: 'kaato.webp',
     abilities: 'Space Trucking',
     nationality: 'Japanese',
     catchphrase: 'I don\'t have any regrets, but... That\'s because I\'m going to take back the life I lost.',
@@ -1874,7 +1874,7 @@ const characters = [
   {
     name: 'Daiya Higashikata',
     japaneseName: '東方 大弥',
-    image: 'jesus.webp',
+    image: 'daiya.webp',
     abilities: 'California King Bed',
     nationality: 'Japanese',
     catchphrase: 'Happiness is to share memories with someone.',
@@ -1886,7 +1886,7 @@ const characters = [
   {
     name: 'Hato Higashikata',
     japaneseName: '東方 鳩',
-    image: 'jesus.webp',
+    image: 'hato.png',
     abilities: 'Walking Heart',
     nationality: 'Japanese',
     catchphrase: 'Oh, my! Someone dropped a magazine with such a pretty girl on the cover in a place like this?! Gee, I\'m sure I\'ve seen this person before some~~where... It\'s me~ muhuhuhuhu!',
@@ -1898,7 +1898,7 @@ const characters = [
   {
     name: 'Jobin Higashikata',
     japaneseName: '東方 常敏',
-    image: 'jesus.webp',
+    image: 'jobin.webp',
     abilities: 'Speed King',
     nationality: 'Japanese',
     catchphrase: 'This world, including Morioh, is crazy. And the one thing you can be certain of in this mad world... Is the one that wins is the one in the right.',
@@ -1910,7 +1910,7 @@ const characters = [
   {
     name: 'Mitsuba Higashikata',
     japaneseName: '東方 密葉',
-    image: 'jesus.webp',
+    image: 'mitsuba.png',
     abilities: 'Awaking III Leaves',
     nationality: 'Japanese',
     catchphrase: 'You want to mediate and "smooth things over"...? Don\'t spout that nonsense to me ! If you ever...lay a finger on Tsurugi without justifiable grounds again, I\'ll break those fingers without a second thought.',
@@ -1922,7 +1922,7 @@ const characters = [
   {
     name: 'Kei Nijimura',
     japaneseName: '虹村京',
-    image: 'jesus.webp',
+    image: 'kei.jpg',
     abilities: 'Born This Way',
     nationality: 'Japanese',
     catchphrase: 'You are you...I know that...It\'s the same for everyone in this world...you are your own self.',
@@ -1934,7 +1934,7 @@ const characters = [
   {
     name: 'Yoshikage Kira',
     japaneseName: '吉良 吉影',
-    image: 'jesus.webp',
+    image: 'kira8.png',
     abilities: 'Killer Queen, Sailing',
     nationality: 'Japanese',
     catchphrase: 'I\'m going to steal one...one of those fruits...',
@@ -1946,7 +1946,7 @@ const characters = [
   {
     name: 'Josefumi Kujo',
     japaneseName: '吉良 吉影',
-    image: 'jesus.webp',
+    image: 'josefumi.png',
     abilities: 'Soft & Wet, Horticulture',
     nationality: 'Japanese',
     catchphrase: 'If I can be even a little help to Holy.....That\'s my precious image of happiness.',
@@ -1958,7 +1958,7 @@ const characters = [
   {
     name: 'Karera Sakunami',
     japaneseName: '作並 カレラ',
-    image: 'jesus.webp',
+    image: 'kakera.png',
     abilities: 'Love Love Deluxe',
     nationality: 'Japanese',
     catchphrase: 'Living your life so your now is a treasured, fun, wonderful experience...that\'s happiness.',
@@ -1970,7 +1970,7 @@ const characters = [
   {
     name: 'Tamaki Damo',
     japaneseName: '田最 環',
-    image: 'jesus.webp',
+    image: 'tamaki.png',
     abilities: 'Vitamin C, Rock Physiology',
     nationality: 'none',
     catchphrase: 'Do not underestimate me.',
@@ -1982,7 +1982,7 @@ const characters = [
   {
     name: 'Yotsuyu Yagiyama',
     japaneseName: '八木山夜露',
-    image: 'jesus.webp',
+    image: 'yotsuyu.png',
     abilities: 'I Am a Rock, Rock Physiology',
     nationality: 'none',
     catchphrase: 'I Am a Rock. I am an Island.',
@@ -1994,7 +1994,7 @@ const characters = [
   {
     name: 'Aisho Dainenjiyama',
     japaneseName: '大年寺山愛唱',
-    image: 'jesus.webp',
+    image: 'aisho.webp',
     abilities: 'Doobie Wah!, Rock Physiology',
     nationality: 'none',
     catchphrase: 'It is quite an unfortunate thing that\'s happened to you...',
@@ -2006,7 +2006,7 @@ const characters = [
   {
     name: 'A. Phex Brothers',
     japaneseName: 'エイ・フェックス兄弟',
-    image: 'jesus.webp',
+    image: 'aphex.webp',
     abilities: 'Schott Key No.1 and Schott Key No.2, Rock Physiology, Soccer',
     nationality: 'none',
     catchphrase: 'How far are you gonna go? Until he tells us who he is...? Until he\'s a corpse. Do what you have to do, that\'s what matters here.',
@@ -2018,7 +2018,7 @@ const characters = [
   {
     name: 'Dolomite',
     japaneseName: 'ドロミテ',
-    image: 'jesus.webp',
+    image: 'dolomite.png',
     abilities: 'Blue Hawaii, Rock Physiology',
     nationality: 'none',
     catchphrase: 'The Blue Lagoon... Man, I\'d love to really go there. That\'s my dream...',
@@ -2030,7 +2030,7 @@ const characters = [
   {
     name: 'Urban Guerrilla',
     japaneseName: 'アーバン・ゲリラ, 下里 良',
-    image: 'jesus.webp',
+    image: 'urban.png',
     abilities: 'Brain Storm, Doremifasolati Do, Rock Physiology',
     nationality: 'none',
     catchphrase: 'You people... when you got careless, you ended up being forever below the rocks... the Rock Humans that is!',
@@ -2042,7 +2042,7 @@ const characters = [
   {
     name: 'Poor Tom',
     japaneseName: 'プアー・トム',
-    image: 'jesus.webp',
+    image: 'poortom.png',
     abilities: 'Ozon Baby, Rock Physiology',
     nationality: 'none',
     catchphrase: 'These loose women, what\'m I gonna do~',
@@ -2054,7 +2054,7 @@ const characters = [
   {
     name: 'Wu Tomoki',
     japaneseName: '羽 伴毅',
-    image: 'jesus.webp',
+    image: 'wutomoki.png',
     abilities: 'Doctor Wu, Rock Physiology',
     nationality: 'Japanese',
     catchphrase: 'Wu Tomoki does not fail.',
@@ -2066,7 +2066,7 @@ const characters = [
   {
     name: 'Satoru Akefu',
     japaneseName: '明負 悟',
-    image: 'jesus.webp',
+    image: 'satoru.png',
     abilities: 'Wonder of U',
     nationality: 'Japanese',
     catchphrase: 'Whomever it may be, they would be always better off without pursuing me...',
@@ -2078,7 +2078,7 @@ const characters = [
   {
     name: 'Tooru',
     japaneseName: '透龍',
-    image: 'jesus.webp',
+    image: 'tooru.png',
     abilities: 'Wonder of U, Rock Physiology',
     nationality: 'Japanese',
     catchphrase: 'Yasuho-chan, it looks like we ran into each other at a good time... Seems that\'s always the way with us...',
@@ -2090,14 +2090,14 @@ const characters = [
   {
     name: 'Ojiro Sasame',
     japaneseName: '笹目桜二郎',
-    image: 'jesus.webp',
+    image: 'sasame.png',
     abilities: 'Fun Fun Fun',
     nationality: 'Japanese',
     catchphrase: 'I\'m fresh outta business cards but the name\'s Ojiro, nice ta meetcha.',
     family: 'none',
     chapter: 'Jojolion',
     living: false,
-    isHuman: false
+    isHuman: true
   },
 ];
 
